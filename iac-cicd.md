@@ -3,7 +3,9 @@
 The purpose of this document is to define the target state IaC CI/CD.
 
 [Objectives](#objectives)
+
 [Requirements](#requirements)
+
 [Flow Diagram](#flow-diagram)
 
 
@@ -22,10 +24,15 @@ The design has the following objectives:
 The design must achieve the following:
 
 [CI - Step 1](#request)
+
 [CI - Step 2](#build)
+
 [CI - Step 3](#test)
+
 [CI - Step 4](#promotion)
+
 [CD - Step 1](#release)
+
 [CD - Step 2](#reconciliation)
 
 ### Request
