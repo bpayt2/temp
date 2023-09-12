@@ -23,18 +23,6 @@ The design has the following objectives:
 
 The design must achieve the following:
 
-[CI - Step 1](#request)
-
-[CI - Step 2](#build)
-
-[CI - Step 3](#test)
-
-[CI - Step 4](#promotion)
-
-[CD - Step 1](#release)
-
-[CD - Step 2](#reconciliation)
-
 ### Request
 
 1. Provide a programmatic interface experience (e.g. git)
