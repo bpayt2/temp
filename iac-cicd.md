@@ -45,6 +45,12 @@ The design must achieve the following:
 
 *Note - each number links to expanded (click error) requirement rationale*
 
+
+## Flow Diagram
+
+![](./images/iac_cicd.png)
+
+
 ### CI - Request
 
 #### Requirement 1
@@ -254,8 +260,3 @@ The design must achieve the following:
   - Discourages/reverts manual change
 
 </details>
-
-
-## Flow Diagram
-
-![](./images/iac_cicd.png)
