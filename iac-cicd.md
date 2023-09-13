@@ -32,11 +32,33 @@ The design must achieve the following:
 
   - Integration with developer tools/IDEs enhances the experience.
   - Git maintains history, audit, and versioning.
-  
+
 </details>
 
 2. Code abstraction (e.g. manifest driven)
+
+<details>
+  <summary>Rationale</summary>
+
+  - Redundant code and data should be avoided
+  - Enables extension into configuration management and application source code
+  - Promotes flexibility for integrated pipeline technology (e.g. maven vs gradle, terraform vs ansible, etc.)
+  - Promotes flexibility for testing frameworks and transitions (e.g. regression testing of source code but not infra-code)
+  - JSON or YAML would be preferred
+
+</details>
+
 3. Triggered actions/fulfillment (e.g. commit)
+
+<details>
+  <summary>Rationale</summary>
+
+  - Continuous
+  - Fail fast
+  - Aligns to developer user journey
+  - Aligns to agile way of working
+
+</details>
 
 ### Build
 
