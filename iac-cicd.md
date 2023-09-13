@@ -28,7 +28,20 @@ The design must achieve the following:
 | Requirement | Description | Phase | Release |
 | ----------- | ----------- | ----- | ------- |
 | [1](#requirement-1) | Provide a programmatic interface experience | CI - Request | MVP |
-|
+| [2](#requirement-2) | Code abstraction | CI - Request | MVP |
+| [3](#requirement-3) | Triggered actions/fulfillment  | CI - Request | MVP |
+| [4](#requirement-4) | Build on curated templates | CI - Build | Full Product |
+| [5](#requirement-5) | Source configuration metadata | CI - Build | Full Product |
+| [6](#requirement-6) | Evaluate rendered manifest against policy-as-code | CI - Build | Full Product |
+| [7](#requirement-7) | Publish resultant manifest | CI - Build | MVP |
+| [8](#requirement-8) | Record and notify test results | CI - Test | Full Product |
+| [9](#requirement-9) | Register request and approval via change management system | CI - Promotion | MVP |
+| [10](#requirement-10) | Promote manifest | CI - Promotion | MVP |
+| [11](#requirement-11) | Increment release version | CI - Promotion | MVP |
+| [12](#requirement-12) | Validate change number | CD - Release | MVP |
+| [13](#requirement-13) | Deploy manifest and store state | CD - Release | MVP |
+| [14](#requirement-14) | Notify and register metric | CD - Release | Full Product |
+| [15](#requirement-15) | Desired and current state are reconciled | CI - Reconciliation | Full Product |
 
 ### Request
 
