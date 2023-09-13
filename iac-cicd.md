@@ -43,7 +43,7 @@ The design must achieve the following:
 | [14](#requirement-14) | Notify and register metric | CD - Release | Full Product |
 | [15](#requirement-15) | Desired and current state are reconciled | CI - Reconciliation | Full Product |
 
-*Note - each number links to expanded requirement rationale*
+*Note - each number links to expanded (click error) requirement rationale*
 
 ### CI - Request
 
