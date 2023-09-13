@@ -27,13 +27,13 @@ The design must achieve the following:
 
 1. Provide a programmatic interface experience (e.g. git)
 
-<details>
-  <summary>Rationale</summary>
+    <details>
+      <summary>Rationale</summary>
 
-  - Integration with developer tools/IDEs enhances the experience.
-  - Git maintains history, audit, and versioning.
+      - Integration with developer tools/IDEs enhances the experience.
+      - Git maintains history, audit, and versioning.
 
-</details>
+    </details>
 
 2. Code abstraction (e.g. manifest driven)
 
