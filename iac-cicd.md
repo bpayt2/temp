@@ -34,7 +34,7 @@ The design must achieve the following:
 
 #### Requirement 1
 
-**Provide a programmatic interface experience (e.g. git)**
+*Provide a programmatic interface experience (e.g. git)*
 
 <details>
   <summary>Rationale</summary>
@@ -47,7 +47,7 @@ The design must achieve the following:
 
 #### Requirement 2
 
-**Code abstraction (e.g. manifest driven)**
+*Code abstraction (e.g. manifest driven)*
 
     <details>
       <summary>Rationale</summary>
@@ -62,7 +62,7 @@ The design must achieve the following:
 
 #### Requirement 3
 
-**Triggered actions/fulfillment (e.g. commit)**
+*Triggered actions/fulfillment (e.g. commit)*
 
     <details>
       <summary>Rationale</summary>
@@ -78,7 +78,7 @@ The design must achieve the following:
 
 #### Requirement 4
 
-**Build on curated templates (e.g. terraform modules)**
+*Build on curated templates (e.g. terraform modules)*
 
     <details>
       <summary>Rationale</summary>
@@ -92,7 +92,7 @@ The design must achieve the following:
 
 #### Requirement 5
 
-**Source configuration metadata (e.g. cost-center, support-team, etc.)**
+*Source configuration metadata (e.g. cost-center, support-team, etc.)*
 
     <details>
       <summary>Rationale</summary>
@@ -107,49 +107,49 @@ The design must achieve the following:
 
 #### Requirement 6
 
-**Evaluate rendered manifest against policy-as-code (i.e. cybersec standards)**
+*Evaluate rendered manifest against policy-as-code (i.e. cybersec standards)*
 
 
 #### Requirement 7
 
-**Publish resultant manifest**
+*Publish resultant manifest*
 
 ### Test
 
 #### Requirement 8
 
-**Record and notify test results**
+*Record and notify test results*
 
 ### Promotion
 
 #### Requirement 9
 
-**Register request and approval via change management system**
+*Register request and approval via change management system*
 
 #### Requirement 10
 
-**Promote manifest (e.g. pull-request to protected branch)**
+*Promote manifest (e.g. pull-request to protected branch)*
 
 #### Requirement 11
 
-**Increment release version**
+*Increment release version*
 
 ### Release
 
 #### Requirement 12
 
-**Validate change number**
+*Validate change number*
 
 #### Requirement 13
 
-**Deploy manifest and store state (if separated)**
+*Deploy manifest and store state (if separated)*
 
 #### Requirement 14
 
-**Notify and register metric (i.e. deployment frequency)**
+*Notify and register metric (i.e. deployment frequency)*
 
 ### Reconciliation
 
 #### Requirement 15
 
-**Desired and current state are reconciled**
+*Desired and current state are reconciled*
