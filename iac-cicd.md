@@ -23,9 +23,16 @@ The design has the following objectives:
 
 The design must achieve the following:
 
+**Summary Table**
+
+| Requirement | Description | Phase | Release |
+| ----------- | ----------- | ----- | ------- |
+| [1]() | Provide a programmatic interface experience | CI - Request | MVP |
+|
+
 ### Request
 
-1. Provide a programmatic interface experience (e.g. git)
+#### 1. Provide a programmatic interface experience (e.g. git)
 
     <details>
       <summary>Rationale</summary>
@@ -36,7 +43,7 @@ The design must achieve the following:
 
     </details>
 
-2. Code abstraction (e.g. manifest driven)
+#### 2. Code abstraction (e.g. manifest driven)
 
     <details>
       <summary>Rationale</summary>
@@ -49,7 +56,7 @@ The design must achieve the following:
 
     </details>
 
-3. Triggered actions/fulfillment (e.g. commit)
+#### 3. Triggered actions/fulfillment (e.g. commit)
 
     <details>
       <summary>Rationale</summary>
@@ -77,16 +84,16 @@ The design must achieve the following:
 
 2. Source configuration metadata (e.g. cost-center, support-team, etc.)
 
-<details>
-  <summary>Rationale</summary>
+    <details>
+      <summary>Rationale</summary>
 
-  - Enforces required metadata on all 'assets'/configuration items
-  - Promotes application portfolio management and dependency accuracy
-  - Promotes change management database accuracy
-  - Enhances detection and response - MTTR (e.g. vulnerability on system X - OR - page team Y for system X alert)
-  - Enables financial and operational observability
+      - Enforces required metadata on all 'assets'/configuration items
+      - Promotes application portfolio management and dependency accuracy
+      - Promotes change management database accuracy
+      - Enhances detection and response - MTTR (e.g. vulnerability on system X - OR - page team Y for system X alert)
+      - Enables financial and operational observability
 
-</details>
+    </details>
 
 3. Evaluate rendered manifest against policy-as-code (i.e. cybersec standards)
 4. Publish resultant manifest (e.g. tfvars)
