@@ -32,7 +32,9 @@ The design must achieve the following:
 
 ### Request
 
-#### 1. Provide a programmatic interface experience (e.g. git)
+#### 1.
+
+Provide a programmatic interface experience (e.g. git)
 
     <details>
       <summary>Rationale</summary>
@@ -43,7 +45,9 @@ The design must achieve the following:
 
     </details>
 
-#### 2. Code abstraction (e.g. manifest driven)
+#### 2.
+
+Code abstraction (e.g. manifest driven)
 
     <details>
       <summary>Rationale</summary>
