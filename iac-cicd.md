@@ -29,9 +29,10 @@ The design must achieve the following:
 
 <details>
   <summary>Rationale</summary>
+
   - Integration with developer tools/IDEs enhances the experience.
-  
   - Git maintains history, audit, and versioning.
+  
 </details>
 
 2. Code abstraction (e.g. manifest driven)
