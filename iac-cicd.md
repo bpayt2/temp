@@ -32,18 +32,18 @@ The design must achieve the following:
 
 ### Request
 
-#### 1.
+#### Requirement 1
 
 Provide a programmatic interface experience (e.g. git)
 
-    <details>
-      <summary>Rationale</summary>
+<details>
+  <summary>Rationale</summary>
 
-      - Integration with developer tools/IDEs enhances the experience
-      - Promote flexibility for front end input (e.g. ServiceNow form, workflow orchestrators, hyper-automation tooling)
-      - Git maintains history, audit, and versioning
+  - Integration with developer tools/IDEs enhances the experience
+  - Promote flexibility for front end input (e.g. ServiceNow form, workflow orchestrators, hyper-automation tooling)
+  - Git maintains history, audit, and versioning
 
-    </details>
+</details>
 
 #### 2.
 
