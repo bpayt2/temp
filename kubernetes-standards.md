@@ -152,6 +152,7 @@ Topology spread constraints should be used to ensure pod replicas are distribute
 
 - None
 
+<!---
 #### Standard #3
 
 ##### Standard
@@ -328,9 +329,9 @@ Topology spread constraints should be used to ensure pod replicas are distribute
 
 ##### Caveats
 
-## Responsibility Matrix
+--->
 
-## Standard Index
+## Responsibility Matrix
 
 | Number | Application Development | Infrastructure Engineering |
 | :-------- | :--------- | :------: |
