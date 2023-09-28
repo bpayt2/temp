@@ -112,6 +112,30 @@ Topology spread constraints are applied to each deployment
 
 ##### Standard
 
+<details>
+  <summary>Example</summary>
+
+  ```txt
+    kind: Deployment
+    metadata:
+      name: example-deployment
+      labels:
+        app: example
+    spec:
+      # Configure a topology spread constraint
+      topologySpreadConstraints:
+        - maxSkew: <integer>
+          minDomains: <integer> # optional; beta since v1.25
+        **topologyKey: failure-domain.beta.kubernetes.io/zone**
+        **whenUnsatisfiable: DoNotSchedule**
+        **labelSelector: app = example**
+          matchLabelKeys: <list> # optional; beta since v1.27
+          nodeAffinityPolicy: [Honor|Ignore] # optional; beta since v1.26
+          nodeTaintsPolicy: [Honor|Ignore] # optional; beta since v1.26
+      ### other Pod fields go here
+  ```
+</details>
+
 ##### Rationale
 
 ##### Implications
