@@ -15,7 +15,7 @@ Kubernetes first entered Ulta Beauty in 2020 charged to deliver a flexible non-p
 
 The standards set forth within this document serve to ensure the strategic alignment, optimal use and performance, availability and reliability, and overall Ulta Beauty success.
 
-Standards are accessed against solutions to determine *well-architected* and production readiness. 
+Standards are accessed against solutions to determine *well-architected* and production readiness.
 
 [Standard Index](#standard-index)
 
@@ -300,22 +300,32 @@ Topology spread constraints are applied to each deployment
 
 | Number | Application Development | Infrastructure Engineering |
 | :-------- | :--------- | :------: |
-| [A1](#standard-1) |
-| [A2](#standard-2) |
-| [A3](#standard-3) |
-| [A4](#standard-4) |
-| [A5](#standard-5) |
-| [A6](#standard-6) |
-| [R1](#standard-1-1) |
-| [R2](#standard-2-1) |
-| [R3](#standard-3-1) |
-| [R4](#standard-4-1) |
-| [R5](#standard-5-1) |
-| [R6](#standard-6-1) |
-| [R7](#standard-7) |
-| [P1](#standard-1-3) |
-| [P2](#standard-2-3) |
-| [P3](#standard-3-3) |
-| [G1](#standard-1-4) |
-| [G2](#standard-2-4) |
-| [G3](#standard-3-4) |
+| [A1](#standard-1) | R, A, I | C |
+| [A2](#standard-2) | R, A, I | C |
+| [A3](#standard-3) | R, A, I | C |
+| [A4](#standard-4) | R, A, I | C |
+| [A5](#standard-5) | R, A, I | C |
+| [A6](#standard-6) | R, A, I | C |
+| [R1](#standard-1-1) | I | R, A, C |
+| [R2](#standard-2-1) | R, A, I | C |
+| [R3](#standard-3-1) | R, A, I | C |
+| [R4](#standard-4-1) | R, A, I | C |
+| [R5](#standard-5-1) | I | R, A, C |
+| [R6](#standard-6-1) | R, A, I | C |
+| [R7](#standard-7) | I | R, A, C |
+| [P1](#standard-1-3) | R, A, I | C |
+| [P2](#standard-2-3) | R, A, I | C |
+| [P3](#standard-3-3) | R, A, I | C |
+| [G1](#standard-1-4) | I | R, A, C |
+| [G2](#standard-2-4) | R, A, I | C |
+| [G3](#standard-3-4) | R, A, I | C |
+
+**Legend**
+
+R = Responsible
+
+A = Accountable
+
+C = Consulted
+
+I = Informed
