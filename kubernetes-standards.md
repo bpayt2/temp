@@ -112,6 +112,8 @@ Topology spread constraints are applied to each deployment
 
 ##### Standard
 
+Topology spread constraints should be used to ensure pod replicas are distributed evenly across fault domains.
+
 <details>
   <summary>Example</summary>
 
@@ -138,9 +140,17 @@ Topology spread constraints are applied to each deployment
 
 ##### Rationale
 
+- Clusters are provisioned to position nodes across fault domains (e.g. VMware hosts and GCP zones), but applications do not inherently benefit from this.
+- Ensures scaling of replicas are distributed evenly across a desired number of fault domains
+- Is more sophisticated then managing through a combination of affinities and anti-affinities (legacy approach)
+
 ##### Implications
 
+- Affinities and anti-affinities need to be considered with topology spread constraints when applications need to collocated 'dependencies' on nodes
+
 ##### Caveats
+
+- None
 
 #### Standard #3
 
