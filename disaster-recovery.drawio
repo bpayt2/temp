@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T15:54:12.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-YZxD9abFlKXLPYp_S-p" version="21.8.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-02T20:03:59.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="99sMSX_p64E6AwncwXny" version="21.8.2" type="github" pages="6">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1434" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,6 +102,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B8DqByo4o-1XrTthwC5V-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="sourcePoint" />
+            <mxPoint x="400" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9Rkogd2WX2FzwNtunQ7c-23" value="AZR-US-East-2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="660" y="90" width="120" height="270" as="geometry" />
         </mxCell>
@@ -215,7 +221,7 @@
         <mxCell id="9Rkogd2WX2FzwNtunQ7c-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="9Rkogd2WX2FzwNtunQ7c-38" target="9Rkogd2WX2FzwNtunQ7c-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Rkogd2WX2FzwNtunQ7c-38" value="Interconnection Fabric" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9Rkogd2WX2FzwNtunQ7c-38" value="Interconnection Fabric" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="220" y="160" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9Rkogd2WX2FzwNtunQ7c-41" value="entry-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -310,6 +316,12 @@
         </mxCell>
         <mxCell id="9Rkogd2WX2FzwNtunQ7c-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry y="790" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B8DqByo4o-1XrTthwC5V-2" value="Power Grid &lt;br&gt;RF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="310" y="-227" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8DqByo4o-1XrTthwC5V-3" value="Power Grid &lt;br&gt;SERC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="420" y="-227" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
