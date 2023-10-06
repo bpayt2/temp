@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T19:07:11.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="87d39LzF5oPjV_gznxmN" version="21.8.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-06T15:38:59.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KJ8fhNYSyFYM4zC3HzHl" version="21.8.2" type="github" pages="8">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1434" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -957,6 +957,14 @@
         <mxCell id="7njWF1SS-MKW0BAZSkDe-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Convert all stores to SD-WAN&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Prefer - terminate at interconnect&lt;/li&gt;&lt;li&gt;Second - terminate at Net PoP&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;SASE adoption with SD-WAN&lt;/li&gt;&lt;li&gt;Controlled public egress&amp;nbsp;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Managed inspection points&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="770" width="280" height="120" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q5gGE6IJJj_TUQKueTG9" name="PPT Images">
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
