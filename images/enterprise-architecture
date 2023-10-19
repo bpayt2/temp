@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T13:35:15.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="waVV3lplc9CAiPueGip7" version="21.8.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-19T16:49:34.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ULZ-bRfsisfmND1idPRb" version="21.8.2" type="github" pages="6">
   <diagram name="Architecture Practice" id="GWzs2rwbBVGhXJVMHP_J">
     <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -698,25 +698,25 @@
         <mxCell id="2mt6vjpfWPfacv11mkK--2" value="Design" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="539" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2mt6vjpfWPfacv11mkK--3" value="Security Assessment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2mt6vjpfWPfacv11mkK--3" value="Security Assessment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2mt6vjpfWPfacv11mkK--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2mt6vjpfWPfacv11mkK--4" target="2mt6vjpfWPfacv11mkK--6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2mt6vjpfWPfacv11mkK--4" value="Concept Architecture Office" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2mt6vjpfWPfacv11mkK--4" value="Concept Architecture Office" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2mt6vjpfWPfacv11mkK--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2mt6vjpfWPfacv11mkK--5" target="2mt6vjpfWPfacv11mkK--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2mt6vjpfWPfacv11mkK--5" value="Governance PM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2mt6vjpfWPfacv11mkK--5" value="Governance PM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="310" y="480" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2mt6vjpfWPfacv11mkK--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2mt6vjpfWPfacv11mkK--6" target="2mt6vjpfWPfacv11mkK--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2mt6vjpfWPfacv11mkK--6" value="Software Governance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2mt6vjpfWPfacv11mkK--6" value="Software Governance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="juTneSDuDOUNqDrtVeba-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="juTneSDuDOUNqDrtVeba-1" target="juTneSDuDOUNqDrtVeba-3">
@@ -750,13 +750,13 @@
         <mxCell id="juTneSDuDOUNqDrtVeba-6" value="Architecture Review Board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="juTneSDuDOUNqDrtVeba-8" value="Technology Council" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="juTneSDuDOUNqDrtVeba-8" value="Technology Council" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="970" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="juTneSDuDOUNqDrtVeba-13" value="*Design/review is repeated as needed*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="650" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="juTneSDuDOUNqDrtVeba-17" value="Approval Decision is Recorded" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="juTneSDuDOUNqDrtVeba-17" value="Approval Decision is Recorded" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1155" y="485" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="juTneSDuDOUNqDrtVeba-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="juTneSDuDOUNqDrtVeba-19" target="juTneSDuDOUNqDrtVeba-3">
@@ -769,6 +769,12 @@
         </mxCell>
         <mxCell id="juTneSDuDOUNqDrtVeba-19" value="Financing or Acquisition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4RbGF6wDpmutJZ4rrjl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n4RbGF6wDpmutJZ4rrjl-2" value="Does not exist today" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="715" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
