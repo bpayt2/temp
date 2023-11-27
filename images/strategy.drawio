@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:50:40.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Y1hVi_n08vdwfR_yAaiN" version="22.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-27T15:17:46.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xKC0ne3bnAjejUkZkR4t" version="22.1.3" type="github" pages="3">
   <diagram name="Cloud Positions" id="OvlJBEXXVfp6pnEp47S3">
     <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -523,6 +523,14 @@
             <mxRectangle width="93" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FQu9sqAaEmFiQA3ShMTC" name="Inventory and Catalog">
+    <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
