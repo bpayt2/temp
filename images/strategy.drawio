@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T15:17:46.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xKC0ne3bnAjejUkZkR4t" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-27T15:30:26.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4bapmbs4wgDbtqd5HKy-" version="22.1.3" type="github" pages="3">
   <diagram name="Cloud Positions" id="OvlJBEXXVfp6pnEp47S3">
     <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -531,6 +531,87 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0HLfHqASrhSB9UlZw_10-18" value="System of Records (examples)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="780" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-2" target="0HLfHqASrhSB9UlZw_10-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-12" value="Source Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-9">
+          <mxGeometry x="-0.0337" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-2" target="0HLfHqASrhSB9UlZw_10-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-21" value="Chanage Awareness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-20">
+          <mxGeometry x="-0.1262" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-2" value="Change Management Database&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(Asset/CI Inventory)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-3" target="0HLfHqASrhSB9UlZw_10-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-13" value="Source Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-10">
+          <mxGeometry x="0.0329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-3" target="0HLfHqASrhSB9UlZw_10-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-23" value="Impact and Outage Awareness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-22">
+          <mxGeometry x="-0.4331" y="-2" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-3" value="Application Portfolio Management&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(System and Component Inventory)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-4" target="0HLfHqASrhSB9UlZw_10-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-17" value="Source Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-16">
+          <mxGeometry x="0.0329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HLfHqASrhSB9UlZw_10-4" target="0HLfHqASrhSB9UlZw_10-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-25" value="Change&amp;nbsp; and Risk Awareness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HLfHqASrhSB9UlZw_10-24">
+          <mxGeometry x="-0.2888" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-4" value="Third Party Management&lt;br&gt;(Technology Inventory)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-5" value="Public Cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-6" value="Private Cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-7" value="Source Code Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-8" value="API Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-14" value="Public Cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-15" value="Software Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0HLfHqASrhSB9UlZw_10-19" value="Business Service Catalog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
