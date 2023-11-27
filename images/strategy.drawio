@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:42:21.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="n_U9Q1TEakAYai0WJvPg" version="22.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-27T14:45:17.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Y3567_lz6Fwmfm1A0WpG" version="22.1.3" type="github" pages="2">
   <diagram name="Cloud Positions" id="OvlJBEXXVfp6pnEp47S3">
     <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -349,6 +349,12 @@
         </mxCell>
         <mxCell id="lhGTcvj3qofk5hR5HP2g-66" value="Funnel point" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="553" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lhGTcvj3qofk5hR5HP2g-68" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Application Pattern Supported&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="125" y="620" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lhGTcvj3qofk5hR5HP2g-73" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Application Pattern Supported&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="775" y="620" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
