@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T16:47:20.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IDt5JPul66rhT-Ec64o5" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-27T17:57:46.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uMhiANohFlDyz_umC5Hw" version="22.1.3" type="github" pages="4">
   <diagram name="Cloud Positions" id="OvlJBEXXVfp6pnEp47S3">
     <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -588,7 +588,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0HLfHqASrhSB9UlZw_10-4" value="Third Party Management&lt;br&gt;(Technology Inventory)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0HLfHqASrhSB9UlZw_10-4" value="Software Asset Management&lt;br&gt;(Technology Inventory)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0HLfHqASrhSB9UlZw_10-5" value="Public Cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
