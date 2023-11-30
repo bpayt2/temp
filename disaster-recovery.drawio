@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T21:35:50.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="maZDg9UO6EY4QZ9Tx4sr" version="22.1.4" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-11-30T18:52:07.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bD5raKYP9buwXM1sE9sC" version="22.1.4" type="github" pages="17">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3020,13 +3020,13 @@
         <mxCell id="bGjvXKMal4qvrWeXothK-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;strokeColor=#FF9933;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-16" target="bGjvXKMal4qvrWeXothK-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-16" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-16" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-360" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#FF9933;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-18" target="bGjvXKMal4qvrWeXothK-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-18" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-18" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="807" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-19" value="Resource Group A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -3046,7 +3046,7 @@
             <mxPoint x="200" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-24" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-24" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#FF9933;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-26" target="bGjvXKMal4qvrWeXothK-12">
@@ -3054,7 +3054,7 @@
             <mxPoint x="1090" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-26" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-26" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1117" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-27" value="Resource Group A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -3072,13 +3072,13 @@
         <mxCell id="bGjvXKMal4qvrWeXothK-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;strokeColor=#FF9933;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-32" target="bGjvXKMal4qvrWeXothK-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-32" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-32" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#FF9933;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-34" target="bGjvXKMal4qvrWeXothK-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGjvXKMal4qvrWeXothK-34" value="Cloud Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGjvXKMal4qvrWeXothK-34" value="Virtual Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1427" y="740" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-35" value="Resource Group A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -3215,6 +3215,12 @@
         </mxCell>
         <mxCell id="bGjvXKMal4qvrWeXothK-67" value="Forwarding Rules" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1427" y="790" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bGjvXKMal4qvrWeXothK-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FF00FF;strokeWidth=2;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGjvXKMal4qvrWeXothK-39" target="bGjvXKMal4qvrWeXothK-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-185" y="135" as="sourcePoint" />
+            <mxPoint x="400" y="453" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
