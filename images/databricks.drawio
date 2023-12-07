@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T21:39:12.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dyJYhh5i8AGPU-n88gx5" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-07T21:43:11.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jslGDUmsnDnClVRvn50i" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="2764" dy="2250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -932,8 +932,26 @@
         <mxCell id="oN3rZeaW3JMLkBwJUTZ4-6" value="GKE &lt;br&gt;Compute Nodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-10" value="Service Project: ub-databricks-prod" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="290" y="-80" width="200" height="160" as="geometry" />
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-10" value="Service Project: ub-darwin-prod" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-80" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oN3rZeaW3JMLkBwJUTZ4-11" target="oN3rZeaW3JMLkBwJUTZ4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-11" value="&lt;br&gt;Databricks&lt;br&gt;Google Managed Project" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.464;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oN3rZeaW3JMLkBwJUTZ4-3" target="oN3rZeaW3JMLkBwJUTZ4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-14" value="BigQuery" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-15" value="Databricks Workspace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-16" value="Deny all restricted services&lt;br style=&quot;font-size: 10px;&quot;&gt;Whitelist required GCP APIs" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
