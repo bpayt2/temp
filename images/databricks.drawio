@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T16:44:19.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9EmtI_8zdNOX1R98wHiH" version="22.1.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-07T17:32:30.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nvxD5Ush_JloZ8mtizcf" version="22.1.6" type="github" pages="4">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="4204" dy="2989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,29 +158,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-68" value="Ulta Beauty Private Datacenter (CyrusOne)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-360" width="430" height="280" as="geometry" />
+          <mxGeometry x="725" y="-360" width="430" height="280" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#00FF00;strokeWidth=2;" edge="1" parent="1" source="rjEZ4kOpZJ9vNakwqDbt-69" target="rjEZ4kOpZJ9vNakwqDbt-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="891" y="-20" />
+              <mxPoint x="816" y="-20" />
               <mxPoint x="515" y="-20" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-69" value="Network Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="831" y="-180" width="120" height="60" as="geometry" />
+          <mxGeometry x="756" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#00FF00;strokeWidth=2;" edge="1" parent="1" source="rjEZ4kOpZJ9vNakwqDbt-70" target="rjEZ4kOpZJ9vNakwqDbt-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1071" y="-20" />
+              <mxPoint x="996" y="-20" />
               <mxPoint x="1324" y="-20" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-70" value="Network Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1011" y="-180" width="120" height="60" as="geometry" />
+          <mxGeometry x="936" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-71" value="&amp;nbsp;GKE&amp;nbsp; Dataplane V2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2109" y="360" width="250" height="50" as="geometry" />
@@ -236,13 +236,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-90" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-320" width="40" height="110" as="geometry" />
+          <mxGeometry x="725" y="-320" width="40" height="110" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00FF00;strokeWidth=2;" edge="1" parent="1" source="rjEZ4kOpZJ9vNakwqDbt-91" target="rjEZ4kOpZJ9vNakwqDbt-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-91" value="End User Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-295" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="-295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rjEZ4kOpZJ9vNakwqDbt-92" target="rjEZ4kOpZJ9vNakwqDbt-70">
           <mxGeometry relative="1" as="geometry" />
@@ -251,7 +251,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-92" value="End User Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1099" y="-327" width="120" height="60" as="geometry" />
+          <mxGeometry x="1024" y="-327" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-94" value="&lt;div style=&quot;&quot;&gt;Databricks Account - Sandbox&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="80" y="710" width="580" height="410" as="geometry" />
