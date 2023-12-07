@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T21:48:07.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rHYbrXl_wOl1Lm1Qkibz" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-07T21:50:56.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cr51AtMvQwjUFSfNAhdZ" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="2764" dy="2250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -911,13 +911,13 @@
         <mxCell id="oN3rZeaW3JMLkBwJUTZ4-1" value="Service Project: ub-databricks-prod" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="290" y="250" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-3" value="Policy Type: Egress&lt;br&gt;API: BigQuery&lt;br&gt;Method: List/Get" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-3" value="Policy Type: Egress&lt;br&gt;API: BigQuery&lt;br&gt;Method: List/Get&lt;br&gt;ID: Service Account" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="445" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-4" value="Policy Type: Egress&lt;br&gt;API: Cloud Storage&lt;br&gt;Method: List/Get/Put" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-4" value="Policy Type: Egress&lt;br&gt;API: Cloud Storage&lt;br&gt;Method: List/Get/Put&lt;br&gt;ID: Service Account" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="610" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-5" value="Policy Type: Ingress&lt;br&gt;API: GKE Connect&lt;br&gt;Method: All" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="oN3rZeaW3JMLkBwJUTZ4-5" value="Policy Type: Ingress&lt;br&gt;API: GKE Connect&lt;br&gt;Method: All&lt;br&gt;ID: Service Account" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="610" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oN3rZeaW3JMLkBwJUTZ4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oN3rZeaW3JMLkBwJUTZ4-6" target="oN3rZeaW3JMLkBwJUTZ4-5">
