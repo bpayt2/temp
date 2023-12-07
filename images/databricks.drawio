@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T19:24:39.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MXEa_WiSBjUq_RraAR0C" version="22.1.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-07T19:40:28.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vsZH_tsclk1lRHgim-I6" version="22.1.6" type="github" pages="6">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
-    <mxGraphModel dx="2497" dy="2073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2497" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,36 +536,117 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="70" width="400" height="290" as="geometry" />
+        <mxCell id="M8Aq1Xs689govFCuc-tn-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Google Cloud Platform&lt;br&gt;Host Project: ulta-network-prod&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="440" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN3JfXwqKyD9lBdIM12J-2">
+        <mxCell id="M8Aq1Xs689govFCuc-tn-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Google Cloud Platform&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;Host Project: ulta-network-nonprod&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-2" value="&lt;b&gt;Ulta Beauty&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="360" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-4" value="gcp-rtr-nonprod-01&lt;br&gt;Cloud Router&lt;br&gt;ASN 65444" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-5" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;us-central1&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Subnet: 10.23.0.0/?&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Interface 0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;169.254.228.65/29&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Interface 0&lt;br&gt;169.254.22.217/29&lt;br&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="340" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-8" value="&lt;b&gt;CyrusOne (CH1) Aurora&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="115" y="150" width="385" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-10" target="M8Aq1Xs689govFCuc-tn-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="570" as="targetPoint" />
+            <mxPoint x="670" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-2" value="Google Edge Router&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="M8Aq1Xs689govFCuc-tn-10" value="Google Edge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN3JfXwqKyD9lBdIM12J-3">
+        <mxCell id="M8Aq1Xs689govFCuc-tn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-12" target="M8Aq1Xs689govFCuc-tn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-12" value="Google Edge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-14" target="M8Aq1Xs689govFCuc-tn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-14" value="Router&lt;br&gt;ASN: 65333" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-16" target="M8Aq1Xs689govFCuc-tn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-16" value="Router&lt;br&gt;ASN: 65333" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;169.254.22.218/29&lt;br&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="440" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;169.254.228.66/29&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="180" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-19" value="gcp-rtr-nonprod-02&lt;br&gt;Cloud Router&lt;br&gt;ASN 65444" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="650" y="630" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-39" value="gcp-rtr-prod-01&lt;br&gt;Cloud Router&lt;br&gt;ASN 65222" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-40" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;us-central1&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Subnet: 10.23.0.0/?&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="630" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Interface 0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;169.254.97.169/29&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="770" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-42" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Interface 0&lt;br&gt;169.254.18.57/29&lt;br&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="830" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-45" target="M8Aq1Xs689govFCuc-tn-54">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="570" as="targetPoint" />
+            <mxPoint x="670" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-3" value="Google Edge Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="M8Aq1Xs689govFCuc-tn-45" value="Google Edge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tN3JfXwqKyD9lBdIM12J-6" target="tN3JfXwqKyD9lBdIM12J-2">
+        <mxCell id="M8Aq1Xs689govFCuc-tn-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-47" target="M8Aq1Xs689govFCuc-tn-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="M8Aq1Xs689govFCuc-tn-47" value="Google Edge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tN3JfXwqKyD9lBdIM12J-7" target="tN3JfXwqKyD9lBdIM12J-3">
+        <mxCell id="M8Aq1Xs689govFCuc-tn-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-49" target="M8Aq1Xs689govFCuc-tn-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tN3JfXwqKyD9lBdIM12J-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="M8Aq1Xs689govFCuc-tn-49" value="Router&lt;br&gt;ASN: 65111" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8Aq1Xs689govFCuc-tn-51" target="M8Aq1Xs689govFCuc-tn-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-51" value="Router&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ASN: 65111" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-52" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;169.254.18.58/29&lt;br&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-53" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;169.254.97.170/29&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VLAN 1100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="670" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Aq1Xs689govFCuc-tn-54" value="gcp-rtr-prod-02&lt;br&gt;Cloud Router&lt;br&gt;ASN 65222" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -587,7 +668,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rnvYWm1g2QZhTOlfKxIe" name="Kubernetes">
-    <mxGraphModel dx="3354" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
