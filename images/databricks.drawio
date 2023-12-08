@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T16:54:37.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FRxs5CdPfZidCoWQzAVe" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-08T16:59:44.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xV99NPLMe0G3Vf-XBksh" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -975,14 +975,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="iKMUQpXW-NSg_kr273VV" name="Databricks Data">
-    <mxGraphModel dx="2394" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="8LyLfylEfYsY6RWjYWED" name="Identity and Access Management">
     <mxGraphModel dx="1651" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1041,7 +1033,7 @@
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-17" value="Project&lt;br&gt;ub-databpricks-prod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-18" target="lnoc2KoxRxLSfRmcdOpR-11">
+        <mxCell id="lnoc2KoxRxLSfRmcdOpR-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-18" target="lnoc2KoxRxLSfRmcdOpR-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-18" value="Service Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1091,41 +1083,21 @@
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-35" value="Google Cloud Directory Sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="280" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-38" value="Ulta Beauty&amp;nbsp;&lt;br&gt;CyrusOne" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="720" width="240" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-39" value="Google Cloud&lt;br&gt;for organizations" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="360" y="720" width="240" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-41" value="Google Sign-in" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="405" y="910" width="150" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-43" target="lnoc2KoxRxLSfRmcdOpR-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-43" value="Google Identity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="935" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-45" value="Managed&lt;br&gt;User Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1060" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="lnoc2KoxRxLSfRmcdOpR-59">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="830.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-51">
+        <mxCell id="lnoc2KoxRxLSfRmcdOpR-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="lnoc2KoxRxLSfRmcdOpR-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="910" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-51" target="lnoc2KoxRxLSfRmcdOpR-70">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="250" as="sourcePoint" />
             <mxPoint x="740" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="250" />
+              <mxPoint x="630" y="250" />
+              <mxPoint x="630" y="800" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-51" value="Cloud Identity&lt;br&gt;ulta.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-55" value="Service Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="1100" width="120" height="60" as="geometry" />
@@ -1134,38 +1106,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="920.0000000000002" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-61" target="lnoc2KoxRxLSfRmcdOpR-63">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-61" value="Active Directory Forest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="770" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-63" target="lnoc2KoxRxLSfRmcdOpR-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-63" value="Active Directory Domain (ulta.com)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-65" target="lnoc2KoxRxLSfRmcdOpR-63">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-65" value="Active Directory Federation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1030" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-65" target="lnoc2KoxRxLSfRmcdOpR-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-67" value="Single Sign On" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lnoc2KoxRxLSfRmcdOpR-66">
-          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
-            <mxPoint x="4" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-69" target="lnoc2KoxRxLSfRmcdOpR-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lnoc2KoxRxLSfRmcdOpR-69" value="Google Cloud Directory Sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="840" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-70" target="lnoc2KoxRxLSfRmcdOpR-71">
           <mxGeometry relative="1" as="geometry" />
@@ -1183,7 +1123,7 @@
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="lnoc2KoxRxLSfRmcdOpR-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="1280" as="targetPoint" />
+            <mxPoint x="240" y="815" as="targetPoint" />
             <mxPoint x="850" y="815" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -1251,7 +1191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-104" value="?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="625" y="1278" width="30" height="30" as="geometry" />
+          <mxGeometry x="210" y="800" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-106" value="Cloud Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="600" width="120" height="60" as="geometry" />
@@ -1259,8 +1199,16 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="iKMUQpXW-NSg_kr273VV" name="Databricks Data">
+    <mxGraphModel dx="2394" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="rnvYWm1g2QZhTOlfKxIe" name="Kubernetes">
-    <mxGraphModel dx="1647" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2394" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1268,7 +1216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GNo8NY6PzZd8MwgNkBrv" name="SDLC">
-    <mxGraphModel dx="3354" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2394" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
