@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T16:59:44.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xV99NPLMe0G3Vf-XBksh" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-08T17:01:59.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3pxkEzUX7BnuTA4H7ONq" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1195,6 +1195,9 @@
         </mxCell>
         <mxCell id="lnoc2KoxRxLSfRmcdOpR-106" value="Cloud Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bQTd_5nhXBwdYgNh7twZ-1" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Title: Databricks SaaS and Ulta Beauty Google Cloud Platform IAM&lt;br&gt;Architect: Bryan Payton&lt;br&gt;Last Modified Date: 12/8/2023&lt;br&gt;Project ID: XXX&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1110" width="450" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
