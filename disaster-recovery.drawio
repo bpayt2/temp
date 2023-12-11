@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T14:02:18.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dNwIvfzZ1QX4Cy4RspRA" version="22.1.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-12-11T16:30:25.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="otx-dieFTbzaq3Uh4xSu" version="22.1.4" type="github" pages="19">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3288,7 +3288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oxyLMZ6jO7UdYoesNsdg" name="BCPM">
-    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3296,51 +3296,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-1" value="Business Process Priotiization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="210" width="240" height="270" as="geometry" />
+          <mxGeometry x="130" y="30" width="240" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-2" value="Technology Integration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="400" y="210" width="240" height="270" as="geometry" />
+          <mxGeometry x="490" y="30" width="240" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-3" value="Business Continuity Planning" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="760" y="210" width="240" height="270" as="geometry" />
+          <mxGeometry x="850" y="30" width="240" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-7" value="Risk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="210" y="110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-8" value="Impact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="340" width="80" height="40" as="geometry" />
+          <mxGeometry x="210" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-9" value="Program (maturity)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="390" width="80" height="40" as="geometry" />
+          <mxGeometry x="210" y="210" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-10" value="ITSM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="570" y="110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-11" value="Strategy and Design" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="350" width="80" height="40" as="geometry" />
+          <mxGeometry x="570" y="170" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-12" value="Implemntation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="570" y="220" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-13" value="Documentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="930" y="110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-14" value="Exercise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="350" width="80" height="40" as="geometry" />
+          <mxGeometry x="930" y="170" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjRpVTWSrceHdLAvtvRh-15" target="OjRpVTWSrceHdLAvtvRh-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880" y="630" />
-              <mxPoint x="160" y="630" />
+              <mxPoint x="970" y="450" />
+              <mxPoint x="250" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-15" value="Evaluate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="930" y="220" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OjRpVTWSrceHdLAvtvRh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjRpVTWSrceHdLAvtvRh-2" target="OjRpVTWSrceHdLAvtvRh-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjRpVTWSrceHdLAvtvRh-20" value="Ulta&lt;br&gt;(online checkout)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
