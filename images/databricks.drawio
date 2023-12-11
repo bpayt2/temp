@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T18:22:49.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="g0PTtcNBy_chzo124fYB" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-11T18:29:43.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xhoRXZBMP3Fg2ySP49tv" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1210,11 +1210,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-56" value="Ulta Beauty Google Cloud Platform" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="80" width="750" height="800" as="geometry" />
-        </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-55" value="Databricks SaaS" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="320" y="80" width="1020" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-67" value="Dev Workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="230" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-68" value="Test Workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="230" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-69" value="Prod Workspace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="230" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-56" value="Ulta Beauty Google Cloud Platform" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="80" width="750" height="800" as="geometry" />
         </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="150" y="520" width="1010" height="270" as="geometry" />
@@ -1299,9 +1308,6 @@
         <mxCell id="u7mb79gUEE3sbgj8gdHh-28" value="Copies to transition bucket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="119.99533895210428" y="380.00069849987534" as="geometry" />
         </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-29" target="u7mb79gUEE3sbgj8gdHh-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-29" value="Data Scientist / Modeler" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="745" y="120" width="30" height="60" as="geometry" />
         </mxCell>
@@ -1313,7 +1319,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-30" value="Unity Catalog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-30" value="Unity Catalog&lt;br&gt;(dev)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-31" target="u7mb79gUEE3sbgj8gdHh-4">
@@ -1332,22 +1338,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-33" target="u7mb79gUEE3sbgj8gdHh-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-33" target="u7mb79gUEE3sbgj8gdHh-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-33" target="u7mb79gUEE3sbgj8gdHh-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-42" value="Authoriations to data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u7mb79gUEE3sbgj8gdHh-40">
-          <mxGeometry x="-0.8469" y="-3" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-33" value="Dela Lake&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="250" width="600" height="30" as="geometry" />
+          <mxGeometry x="460" y="260" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-46" value="Databricks Metastore" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1180" y="345" width="120" height="90" as="geometry" />
@@ -1363,14 +1355,31 @@
         <mxCell id="u7mb79gUEE3sbgj8gdHh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-32" target="u7mb79gUEE3sbgj8gdHh-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-32" value="Unity Catalog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-32" value="Unity Catalog&lt;br&gt;(prod)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u7mb79gUEE3sbgj8gdHh-31" value="Unity Catalog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-31" target="u7mb79gUEE3sbgj8gdHh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-31" value="Unity Catalog&lt;br&gt;(test)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u7mb79gUEE3sbgj8gdHh-52" value="Databricks Workflows&lt;br&gt;(moves data between storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="710" width="560" height="60" as="geometry" />
+          <mxGeometry x="475" y="710" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.101;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-30" target="u7mb79gUEE3sbgj8gdHh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.167;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-32" target="u7mb79gUEE3sbgj8gdHh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7mb79gUEE3sbgj8gdHh-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.951;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="u7mb79gUEE3sbgj8gdHh-32" target="u7mb79gUEE3sbgj8gdHh-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
