@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T19:35:15.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RgBXrsaKJQI7yDqax99L" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T17:12:59.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Yhkw0IJjg1EOJahfcE5-" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1400,6 +1400,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zs8MjicjEgiKxfxYtqsT-1" value="Region: us-central1&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="710" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="xUmVbSCY8YBxuW0Eio_v-1" value="Host Project: Production&lt;br&gt;VPC: Production Shared" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="650" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Zs8MjicjEgiKxfxYtqsT-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="160" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Zs8MjicjEgiKxfxYtqsT-3" value="GKE Private Autopilot Cluster: Production Workspace" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="395" y="370" width="585" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-1" value="us-central1-a" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-2" value="us-central1-b" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-3" value="us-central1-c" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-4" value="us-central1-d" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="840" y="420" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-5" value="Namespace: Databricks Cluster A" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-6" value="Namespace: Databricks Cluster B" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="590" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-7" value="Namespace: Databricks Cluster C" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="690" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-8" value="Namespace: Databricks Cluster D" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="790" width="500" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
