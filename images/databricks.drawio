@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T17:25:59.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5DSUw-lz4Nzi-6aZlPf0" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T17:42:13.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-iFoUueUyP6rrKQ3Ow8u" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1454,8 +1454,8 @@
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-14" value="Pod" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="737.5" y="810" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-15" value="GKE Regional Control Plane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="460" height="55" as="geometry" />
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-15" value="GKE Regional Control Plane" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="460" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-16" value="Databricks SaaS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="210" width="120" height="720" as="geometry" />
@@ -1492,6 +1492,18 @@
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-28" value="Cloud IAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="432.5" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-30" value="ETCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="213" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-31" value="API Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="213" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-32" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="212" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
