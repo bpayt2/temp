@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T17:25:41.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Efgzb0652bfpfFbBE54C" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T17:25:59.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5DSUw-lz4Nzi-6aZlPf0" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1481,7 +1481,7 @@
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-24" value="Cloud&amp;nbsp; Operations Suite" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-25" value="SQL Metastore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-25" value="&amp;nbsp;Metastore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="740" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-26" value="Container Registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
