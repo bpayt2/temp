@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T20:33:29.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0LXmoXaoA2e5zP5FIMAR" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T20:41:12.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GiyJB_GJTqLnTGaskq6b" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1845,6 +1845,12 @@
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-193" value="Max RAM" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
           <mxGeometry x="4490" y="545" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-196" value="GCP Quota and Limits (Project)" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="5330" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.833;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4cOEVPXtFZ3_j2EXJoLa-196" target="4cOEVPXtFZ3_j2EXJoLa-168">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
