@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T18:34:30.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oBBlyiazre2yPGFtjf9U" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T19:22:32.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AGCr2-pEzJ9MARtsc2HY" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1609,6 +1609,48 @@
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-71" value="Databricks Container Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1760" y="561" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-75" value="GKE Node&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="160" width="540" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-76" value="GKE Pod&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;= 30" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="240" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-77" value="GKE Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3530" y="290" width="130" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-78" value="Kube System Pods (proxy, metrics, fluent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3770" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-79" value="Dynatrace Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3770" y="310" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-80" value="Twistlock Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3770" y="240" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-81" value="Operating System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="712.5" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-82" value="Container Runtime&amp;nbsp;&lt;br&gt;(non-databricks)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="630" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-83" value="Application &lt;br&gt;Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-84" value="Initialization Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3535" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3700" y="390" as="sourcePoint" />
+            <mxPoint x="3750" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-86" value="Kubelet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3770" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-88" value="Databricks Container Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3490" y="551" width="420" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
