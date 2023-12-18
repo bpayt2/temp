@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T20:31:39.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="phpSkYs299MZ0fJJidEB" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-18T20:33:29.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0LXmoXaoA2e5zP5FIMAR" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1400,6 +1400,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-195" value="Resource Enforcements" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="4470" y="95" width="990" height="685" as="geometry" />
+        </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-156" value="GKE Cluster" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="3385" y="190" width="665" height="750" as="geometry" />
         </mxCell>
@@ -1810,14 +1813,14 @@
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-179" value="Node Horizontal Scale" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4895" y="660" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="4cOEVPXtFZ3_j2EXJoLa-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5400" y="699" as="sourcePoint" />
+            <mxPoint x="5330" y="700" as="sourcePoint" />
             <mxPoint x="4970.040000000001" y="694" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-181" value="Node Pool Max Nodes" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="5400" y="680" width="100" height="30" as="geometry" />
+          <mxGeometry x="5330" y="682.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-182" value="Namespace Quotas" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
           <mxGeometry x="4490" y="486" width="100" height="30" as="geometry" />
@@ -1835,7 +1838,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-189" value="Horizontal Pod Autoscaler" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
-          <mxGeometry x="5400" y="400" width="100" height="30" as="geometry" />
+          <mxGeometry x="5320" y="400" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4cOEVPXtFZ3_j2EXJoLa-192" value="Max vCPU" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
           <mxGeometry x="4490" y="516" width="100" height="30" as="geometry" />
