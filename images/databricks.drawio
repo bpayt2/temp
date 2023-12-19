@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T15:15:35.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5USOlYy9f7cN8ESWWG4d" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-19T15:34:47.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FZmMP3ibKJBp9m58P6i1" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -201,9 +201,6 @@
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-75" value="GCP Managed Network" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="2479" y="40" width="175" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="rjEZ4kOpZJ9vNakwqDbt-76" value="Cloud Storage&lt;br&gt;(Transition)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2509" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjEZ4kOpZJ9vNakwqDbt-77" value="Cloud Storage&lt;br&gt;(Dev Workspace)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2509" y="390" width="120" height="60" as="geometry" />
