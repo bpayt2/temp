@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T15:58:51.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kGyxx0OSIIbJ0Jn55TF4" version="22.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-19T19:23:34.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9I7cLhK2YaI77MylPlBg" version="22.1.6" type="github" pages="7">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1444,21 +1444,11 @@
         <mxCell id="YURYJLnHaVDrYlz9nX29-13" value="Prod Workspace Storage&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Cloud Storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3380" y="538" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;exitX=0.742;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YURYJLnHaVDrYlz9nX29-6" source="YURYJLnHaVDrYlz9nX29-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2460" y="268" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-15" value="Loads curated tables" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YURYJLnHaVDrYlz9nX29-14">
-          <mxGeometry x="0.3804" relative="1" as="geometry">
-            <mxPoint x="164" y="62" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-17" value="Data Scientist" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2095" y="150" width="30" height="60" as="geometry" />
+          <mxGeometry x="2355" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-18" value="Analytics Zone&lt;br&gt;(Darwin BigQuery)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="532" width="120" height="90" as="geometry" />
+        <mxCell id="YURYJLnHaVDrYlz9nX29-18" value="All Datasets&lt;br&gt;(Darwin 2 BigQuery)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="528" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="YURYJLnHaVDrYlz9nX29-18" source="YURYJLnHaVDrYlz9nX29-17">
           <mxGeometry relative="1" as="geometry">
@@ -1470,8 +1460,8 @@
             <mxPoint x="-11" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-22" value="Model Segment&amp;nbsp;&lt;br&gt;(Darwin BigQuery)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2410" y="533" width="120" height="90" as="geometry" />
+        <mxCell id="YURYJLnHaVDrYlz9nX29-22" value="Model Dataset&amp;nbsp;&lt;br&gt;(Darwin 2 BigQuery)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="533" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-26" value="Data Scientist / Modeler" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3205" y="120" width="30" height="60" as="geometry" />
@@ -1553,25 +1543,19 @@
           <mxGeometry x="3350" y="920" width="450" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-51" value="Data Prep Job&lt;br&gt;(Kubernetes)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2220" y="698" width="120" height="60" as="geometry" />
+          <mxGeometry x="2310" y="683" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-51" target="YURYJLnHaVDrYlz9nX29-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-51" target="YURYJLnHaVDrYlz9nX29-18">
+        <mxCell id="Ebfu_5vMyW1VP9tjrgWd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-60" target="YURYJLnHaVDrYlz9nX29-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-60" value="Data Load Job&lt;br&gt;(Kubernetes)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="698" width="120" height="60" as="geometry" />
+          <mxGeometry x="2510" y="683" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.188;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-22" target="YURYJLnHaVDrYlz9nX29-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-60" target="YURYJLnHaVDrYlz9nX29-13">
+        <mxCell id="YURYJLnHaVDrYlz9nX29-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-60" target="YURYJLnHaVDrYlz9nX29-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-63" value="Data Serve Job&lt;br&gt;(Kubernetes)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2610" y="768" width="120" height="60" as="geometry" />
+          <mxGeometry x="2640" y="778" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.925;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-63" target="YURYJLnHaVDrYlz9nX29-13">
           <mxGeometry relative="1" as="geometry">
@@ -1581,11 +1565,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YURYJLnHaVDrYlz9nX29-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-63" target="YURYJLnHaVDrYlz9nX29-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YURYJLnHaVDrYlz9nX29-66" value="Ulta Beauty Private Cloud" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="80" width="290" height="390" as="geometry" />
+          <mxGeometry x="2225" y="85" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Ebfu_5vMyW1VP9tjrgWd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-51" target="YURYJLnHaVDrYlz9nX29-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2230" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ebfu_5vMyW1VP9tjrgWd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="YURYJLnHaVDrYlz9nX29-63" target="YURYJLnHaVDrYlz9nX29-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2270" y="808" />
+              <mxPoint x="2270" y="660" />
+              <mxPoint x="2125" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
