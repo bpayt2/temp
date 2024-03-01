@@ -1,9 +1,511 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T20:11:21.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.5" etag="fyHU47nlvuUyjfrz5A3Y" type="github">
-  <diagram name="Page-1" id="FpgtIzAL36i8edSdyzaT">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-03-01T20:40:51.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GO_HtmTWFkbQ70ViZP5Y" version="23.1.5" type="github" pages="6">
+  <diagram name="Starting Design" id="FpgtIzAL36i8edSdyzaT">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-2" target="VxUnzjj4SJf1TFtoHBkQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-2" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-3" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-4" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-5" target="VxUnzjj4SJf1TFtoHBkQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-5" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-6" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-14" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-15" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-16" target="VxUnzjj4SJf1TFtoHBkQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-16" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-18" value="Shred Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-19" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-18" target="VxUnzjj4SJf1TFtoHBkQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-25" target="VxUnzjj4SJf1TFtoHBkQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-25" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-3" target="VxUnzjj4SJf1TFtoHBkQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-16" target="VxUnzjj4SJf1TFtoHBkQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxUnzjj4SJf1TFtoHBkQ-6" target="VxUnzjj4SJf1TFtoHBkQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-30" value="&lt;br&gt;Refresh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VxUnzjj4SJf1TFtoHBkQ-31" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AzmF2X0AyI7SK-sodH6x" name="Phase-1">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="glczN5FazihzFBZQ6mYe-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-3" target="glczN5FazihzFBZQ6mYe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-3" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-4" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-5" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-7" target="glczN5FazihzFBZQ6mYe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-7" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-8" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-10" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-11" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-13" target="glczN5FazihzFBZQ6mYe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-13" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-14" value="Shared Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-15" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-14" target="glczN5FazihzFBZQ6mYe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-19" target="glczN5FazihzFBZQ6mYe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-19" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-4" target="glczN5FazihzFBZQ6mYe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-13" target="glczN5FazihzFBZQ6mYe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="glczN5FazihzFBZQ6mYe-8" target="glczN5FazihzFBZQ6mYe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-23" value="&lt;br&gt;Refresh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-24" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-25" value="Dedicated Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF00;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="glczN5FazihzFBZQ6mYe-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StoreOps Project&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B1LkIB8H3SlXf-3vzeoo" name="Phase 2">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-3" target="7_IwhBBdg_CtWkblrmXg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-3" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-4" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-5" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-7" target="7_IwhBBdg_CtWkblrmXg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-7" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-8" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-10" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-11" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-13" target="7_IwhBBdg_CtWkblrmXg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-13" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-14" value="Shared Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-15" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-14" target="7_IwhBBdg_CtWkblrmXg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-19" target="7_IwhBBdg_CtWkblrmXg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-19" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-4" target="7_IwhBBdg_CtWkblrmXg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-27" target="7_IwhBBdg_CtWkblrmXg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_IwhBBdg_CtWkblrmXg-8" target="7_IwhBBdg_CtWkblrmXg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-24" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-25" value="Dedicated Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF00;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StoreOps Project&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-27" value="Dedicated Compute&lt;br&gt;PowerBI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ff00bb;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IwhBBdg_CtWkblrmXg-23" value="&lt;br&gt;Refresh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="60" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fUdR967zSOAjJyvHC6TJ" name="Phase-3">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--3" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--4" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--5" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--7" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--8" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--10" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--11" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--13" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--14" value="Shared Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--15" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mu43-FIIkoJyjzRJLeL--14" target="Mu43-FIIkoJyjzRJLeL--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--19" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mu43-FIIkoJyjzRJLeL--26" target="Mu43-FIIkoJyjzRJLeL--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--23" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--24" value="Dedicated Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF00;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StoreOps Project&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S6b08peRcbaiNvNlwVDY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="Mu43-FIIkoJyjzRJLeL--28" target="Mu43-FIIkoJyjzRJLeL--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--26" value="Dedicated Compute&lt;br&gt;PowerBI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ff00bb;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--27" value="&lt;br&gt;Refresh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S6b08peRcbaiNvNlwVDY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="Mu43-FIIkoJyjzRJLeL--26" target="Mu43-FIIkoJyjzRJLeL--28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="355" as="sourcePoint" />
+            <mxPoint x="1320" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mu43-FIIkoJyjzRJLeL--28" value="Public Net" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hpAU4zAO6gTMJMC6ngVr" name="Phase 4">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-2" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-3" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-4" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-5" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-6" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-8" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-9" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-11" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-12" value="Shared Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-13" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="25zd-BuSb1lIfP7ntxiD-12" target="25zd-BuSb1lIfP7ntxiD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-16" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="25zd-BuSb1lIfP7ntxiD-21" target="25zd-BuSb1lIfP7ntxiD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-18" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-19" value="Dedicated Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF00;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StoreOps Project&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sIOgMMJlmFHftCLzdqt8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="25zd-BuSb1lIfP7ntxiD-23" target="25zd-BuSb1lIfP7ntxiD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-21" value="Dedicated Compute&lt;br&gt;PowerBI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ff00bb;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n2lf2eIYaGmHluaSA398-1" value="&lt;br&gt;Refresh Optimized" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#00FFFF;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sIOgMMJlmFHftCLzdqt8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="25zd-BuSb1lIfP7ntxiD-21" target="25zd-BuSb1lIfP7ntxiD-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="355" as="sourcePoint" />
+            <mxPoint x="1320" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25zd-BuSb1lIfP7ntxiD-23" value="Public Net" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="evq7c_r0NzV-yikpzti4" name="Phase-5">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="44sd30hPVnX5gQRyvOdP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-3" target="44sd30hPVnX5gQRyvOdP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-3" value="Azure Network Internconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-4" value="Equinix &lt;br&gt;Chicago, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-5" value="CyrusOne&amp;nbsp;&lt;br&gt;Aurora IL" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-7" target="44sd30hPVnX5gQRyvOdP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-7" value="CyrusOne&lt;br&gt;Aurora, IL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-8" value="GCP Network Interconnects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-10" value="&lt;br&gt;Data Warehouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-11" value="&lt;br&gt;Report&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.575;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-26" target="44sd30hPVnX5gQRyvOdP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-13" value="Shared Compute PowerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-14" value="Shared Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-15" value="Power Platform Azure North Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Darwin Prod Views Project&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-14" target="44sd30hPVnX5gQRyvOdP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-19" target="44sd30hPVnX5gQRyvOdP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-19" value="PowerBI Data Gateway&lt;br&gt;Shared" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="645" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-4" target="44sd30hPVnX5gQRyvOdP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-26" target="44sd30hPVnX5gQRyvOdP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="44sd30hPVnX5gQRyvOdP-8" target="44sd30hPVnX5gQRyvOdP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-23" value="Google Cloud Platform US Central" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-24" value="Dedicated Compute BigQuery&amp;nbsp;&lt;br&gt;(e.g. slots)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF00;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;StoreOps Project&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-26" value="Dedicated Compute&lt;br&gt;PowerBI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ff00bb;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="44sd30hPVnX5gQRyvOdP-27" value="&lt;br&gt;Refresh Optimized" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#00FFFF;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="60" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
