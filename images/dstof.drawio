@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T19:32:55.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AZD7EFB7fZhQBKHD_2LR" version="24.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-06T20:17:57.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ujfvwz3WMA2XixgFBbvc" version="24.0.2" type="github" pages="3">
   <diagram name="multi-region" id="RcKfoleNUnb_njqzdtlZ">
     <mxGraphModel dx="4204" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -878,11 +878,20 @@
         <mxCell id="zipwJB6-v-N3CY49eRXl-105" value="Apigee X Instance" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1175" y="-930" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zipwJB6-v-N3CY49eRXl-106" value="Apigee X Instance" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-500" width="80" height="80" as="geometry" />
+        <mxCell id="zipwJB6-v-N3CY49eRXl-106" value="Service" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="310" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zipwJB6-v-N3CY49eRXl-108" value="Apigee X Instance" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="-500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zipwJB6-v-N3CY49eRXl-110" value="Service" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="307.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zipwJB6-v-N3CY49eRXl-111" value="Service" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zipwJB6-v-N3CY49eRXl-112" value="Service" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-60" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
