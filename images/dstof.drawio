@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T20:17:57.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ujfvwz3WMA2XixgFBbvc" version="24.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-07T16:05:27.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jyq1NVcmkTIQPYBNmnvs" version="24.0.2" type="github" pages="3">
   <diagram name="multi-region" id="RcKfoleNUnb_njqzdtlZ">
     <mxGraphModel dx="4204" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -768,7 +768,7 @@
             <mxPoint x="1215" y="-810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zipwJB6-v-N3CY49eRXl-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zipwJB6-v-N3CY49eRXl-71" target="zipwJB6-v-N3CY49eRXl-75">
+        <mxCell id="zipwJB6-v-N3CY49eRXl-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zipwJB6-v-N3CY49eRXl-113" target="zipwJB6-v-N3CY49eRXl-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zipwJB6-v-N3CY49eRXl-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;PSC&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -892,6 +892,15 @@
         </mxCell>
         <mxCell id="zipwJB6-v-N3CY49eRXl-112" value="Service" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="-60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zipwJB6-v-N3CY49eRXl-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zipwJB6-v-N3CY49eRXl-71" target="zipwJB6-v-N3CY49eRXl-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="-530" as="sourcePoint" />
+            <mxPoint x="230" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zipwJB6-v-N3CY49eRXl-113" value="Apigee X Instance" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-500" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
