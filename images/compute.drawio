@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T18:27:31.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DYNmsiKPAWWufvyUWyt0" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T18:27:44.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tp8UVz58e5NScazYplW3" version="24.2.0" type="github">
   <diagram name="Hosting Options" id="TRHEweLZq3vptfCPpuQY">
     <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
           <mxGeometry x="1530" y="880" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UImh5uyEVB4ngB7Q_Of0-78" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Apps on&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;Kubernetes on&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Bare Metal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="890" width="100" height="40" as="geometry" />
+          <mxGeometry x="1890" y="880" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UImh5uyEVB4ngB7Q_Of0-79" value="Portworx Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2100" y="514" width="100" height="30" as="geometry" />
