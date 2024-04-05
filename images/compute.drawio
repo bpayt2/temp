@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T20:10:07.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-kSGfyTNSUKybRoXO-Zg" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T18:34:56.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="z1FBLycXL-akh1b0GtnS" version="24.2.0" type="github">
   <diagram name="Hosting Options" id="TRHEweLZq3vptfCPpuQY">
     <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="UImh5uyEVB4ngB7Q_Of0-72" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Apps on&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Bare Metal&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="90" y="860" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UImh5uyEVB4ngB7Q_Of0-73" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Apps on&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Type 1 Hybervisor&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+        <mxCell id="UImh5uyEVB4ngB7Q_Of0-73" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Apps on&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Type 1 Hypervisor&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="450" y="860" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UImh5uyEVB4ngB7Q_Of0-74" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Apps on&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Kubernetes on&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Type 1 Hypervisor&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
