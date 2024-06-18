@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T15:47:20.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vXWkAeNXHu-kt8PXSZoi" version="24.5.4" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-06-18T16:08:38.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="iOUi0KAlOV2DLV4BeKGC" version="24.5.4" type="github" pages="26">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1609,7 +1609,7 @@
         <mxCell id="5KN7kefoEQyfYiql0oac-33" value="&lt;b&gt;us-central-1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="738" y="260" width="352" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="5KN7kefoEQyfYiql0oac-34" value="&lt;b&gt;us-east-2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5KN7kefoEQyfYiql0oac-34" value="&lt;b&gt;us-east&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="738" y="580" width="352" height="280" as="geometry" />
         </mxCell>
         <mxCell id="5tqIJuYT_srbX5tg50yU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="5KN7kefoEQyfYiql0oac-36" target="5KN7kefoEQyfYiql0oac-38" edge="1">
@@ -5327,7 +5327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ec3PRy1enxsXKlCSG69t" name="SAP Azure DR">
-    <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
