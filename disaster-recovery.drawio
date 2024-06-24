@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T18:10:10.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="slMN902hA63jwtmGWp6i" version="24.5.5" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2024-06-24T21:02:00.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="JbFdhWfNx692yOi4E5Pt" version="24.5.5" type="github" pages="26">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1244,7 +1244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="muf_ggHDT3k6uqacNPzF" name="GCP Resiliency">
-    <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2126" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1487,7 +1487,7 @@
         <mxCell id="D8ScREFsYdTlGxkf0p5N-41" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Private Service Connection Central&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="265" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nlKpCVfzHbFsHxXe3LSj-1" value="NGFW Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nlKpCVfzHbFsHxXe3LSj-1" value="NGFW Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="718" y="880" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
