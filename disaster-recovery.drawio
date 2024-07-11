@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T14:45:47.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="KJZNy7B38nzP5_LDidCo" version="24.6.4" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2024-07-11T14:35:09.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="upF3SMiPx7fX_eGs6YX2" version="24.6.4" type="github" pages="28">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1244,7 +1244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="muf_ggHDT3k6uqacNPzF" name="GCP Resiliency">
-    <mxGraphModel dx="2126" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1341,19 +1341,16 @@
         <mxCell id="vhRrOPIcnrJGhj7BiZvy-32" value="Google Edge" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="630" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vhRrOPIcnrJGhj7BiZvy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=1.046;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-33" target="vhRrOPIcnrJGhj7BiZvy-24" edge="1">
+        <mxCell id="vhRrOPIcnrJGhj7BiZvy-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-33" target="vhRrOPIcnrJGhj7BiZvy-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vhRrOPIcnrJGhj7BiZvy-33" value="Google Edge" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="770" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vhRrOPIcnrJGhj7BiZvy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=1.004;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-32" target="vhRrOPIcnrJGhj7BiZvy-23" edge="1">
+        <mxCell id="vhRrOPIcnrJGhj7BiZvy-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.975;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-32" target="vhRrOPIcnrJGhj7BiZvy-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vhRrOPIcnrJGhj7BiZvy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-31" target="vhRrOPIcnrJGhj7BiZvy-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vhRrOPIcnrJGhj7BiZvy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.033;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-30" target="vhRrOPIcnrJGhj7BiZvy-14" edge="1">
+        <mxCell id="vhRrOPIcnrJGhj7BiZvy-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.033;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-30" target="vhRrOPIcnrJGhj7BiZvy-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vhRrOPIcnrJGhj7BiZvy-38" value="&lt;b&gt;us-central-1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
@@ -1489,6 +1486,9 @@
         </mxCell>
         <mxCell id="nlKpCVfzHbFsHxXe3LSj-1" value="NGFW Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="718" y="880" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vhRrOPIcnrJGhj7BiZvy-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="vhRrOPIcnrJGhj7BiZvy-31" target="vhRrOPIcnrJGhj7BiZvy-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -6628,7 +6628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ec3PRy1enxsXKlCSG69t" name="SAP Azure DR">
-    <mxGraphModel dx="2154" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
