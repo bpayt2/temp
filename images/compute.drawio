@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16" pages="7">
   <diagram name="Hosting Options" id="TRHEweLZq3vptfCPpuQY">
     <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1023,6 +1023,58 @@
         </mxCell>
         <mxCell id="MShBqyValivTKEyNYe58-14" value="FAS (Federation Authentication Service)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9JgcIztsMDoZ-UzX4-TV" name="Identity Flow">
+    <mxGraphModel dx="1914" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMfXknUL87Q0QVpC-uYZ-1" target="UMfXknUL87Q0QVpC-uYZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-8" value="Create user account for new hire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMfXknUL87Q0QVpC-uYZ-5">
+          <mxGeometry x="0.0501" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMfXknUL87Q0QVpC-uYZ-1" target="UMfXknUL87Q0QVpC-uYZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-13" value="Provision Idenities" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMfXknUL87Q0QVpC-uYZ-12">
+          <mxGeometry x="-0.178" y="4" relative="1" as="geometry">
+            <mxPoint x="14" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-1" value="One Identity - Identity Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMfXknUL87Q0QVpC-uYZ-2" target="UMfXknUL87Q0QVpC-uYZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-10" value="Pull Citrix groups and members&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. SSO Group&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Admin Groups&lt;/div&gt;&lt;div&gt;3 . Desktop User Groups&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMfXknUL87Q0QVpC-uYZ-9">
+          <mxGeometry x="-0.0751" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-2" value="Microsoft Active Directory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-11" value="Citrix Cloud Control Plane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="440" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-14" value="iCIMS &amp;amp; Success Factors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.126;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UMfXknUL87Q0QVpC-uYZ-14" target="UMfXknUL87Q0QVpC-uYZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMfXknUL87Q0QVpC-uYZ-16" value="New Hires" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMfXknUL87Q0QVpC-uYZ-15">
+          <mxGeometry x="-0.0374" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
