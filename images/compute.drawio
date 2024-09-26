@@ -843,6 +843,187 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6D-KK2jbOdpRz8jCVbmp-1" value="Citrix DaaS&lt;div&gt;Public&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=right;" vertex="1" parent="1">
+          <mxGeometry x="165" y="110" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6D-KK2jbOdpRz8jCVbmp-2" value="Ulta Beauty COLO&lt;div&gt;CyrusOne Aurora&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="520" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6D-KK2jbOdpRz8jCVbmp-3" value="Ulta Beauty GCP&lt;div&gt;us-central1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=right;" vertex="1" parent="1">
+          <mxGeometry x="840" y="350" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6D-KK2jbOdpRz8jCVbmp-4" target="MShBqyValivTKEyNYe58-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-26" value="Validate user&amp;nbsp;&lt;div&gt;(if necessary)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-25">
+          <mxGeometry x="-0.2032" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6D-KK2jbOdpRz8jCVbmp-4" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="185" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-1" target="6D-KK2jbOdpRz8jCVbmp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-24" value="SAML token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-20">
+          <mxGeometry x="-0.316" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-1" target="MShBqyValivTKEyNYe58-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="15" />
+              <mxPoint x="110" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-22" value="sso.utla.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-21">
+          <mxGeometry x="0.2437" relative="1" as="geometry">
+            <mxPoint y="56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-23" value="Request&lt;div&gt;SAML token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-21">
+          <mxGeometry x="-0.4345" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-1" value="BYOD End User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-2" value="ADFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-3" target="MShBqyValivTKEyNYe58-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-3" value="Active Directory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-4" value="AD/MS Certification Authority" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-5" value="Citrix VDI" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="890" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-6" target="MShBqyValivTKEyNYe58-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-35" value="Assert Identity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-15">
+          <mxGeometry x="-0.0707" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-6" value="Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-7" target="MShBqyValivTKEyNYe58-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-34" value="Broker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-16">
+          <mxGeometry x="-0.0874" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-7" target="MShBqyValivTKEyNYe58-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-37" value="Assert Identity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-36">
+          <mxGeometry x="-0.0963" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-7" value="Cloud Connector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-8" target="MShBqyValivTKEyNYe58-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1040" />
+              <mxPoint x="620" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-42" value="Access Logon&lt;div&gt;Cert&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-41">
+          <mxGeometry x="-0.0335" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-8" value="Desktop (VDA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-9" target="MShBqyValivTKEyNYe58-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-27" value="Request Certificate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-18">
+          <mxGeometry x="0.4079" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-9" value="FAS (Federation Authentication Service)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-10" value="Citrix VDI" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="870" y="420" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-11" target="MShBqyValivTKEyNYe58-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-40" value="Assert Identity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-32">
+          <mxGeometry x="-0.1874" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-11" value="Storefront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-12" target="MShBqyValivTKEyNYe58-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-33" value="Broker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-31">
+          <mxGeometry x="-0.1874" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-12" target="MShBqyValivTKEyNYe58-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-39" value="Assert Identity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-38">
+          <mxGeometry x="0.0025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-12" value="Cloud Connector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-13" target="MShBqyValivTKEyNYe58-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="490" />
+              <mxPoint x="1310" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-44" value="Access Logon&lt;div&gt;Cert&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-43">
+          <mxGeometry x="0.0101" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-13" value="Desktop (VDA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MShBqyValivTKEyNYe58-14" target="MShBqyValivTKEyNYe58-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-29" value="Request Certificate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MShBqyValivTKEyNYe58-28">
+          <mxGeometry x="0.2306" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MShBqyValivTKEyNYe58-14" value="FAS (Federation Authentication Service)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
