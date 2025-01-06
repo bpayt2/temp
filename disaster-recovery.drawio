@@ -9001,14 +9001,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I_DlOX9DJeYCq46-sdfu" name="S4 Multi-Region Final">
-    <mxGraphModel dx="3584" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2764" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="peUpubBlOTFZSTv0XDYL-141" value="Azure East" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1020" y="1200" width="970" height="950" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-65" value="&lt;div&gt;&lt;div&gt;Load Balancer&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;align=left;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-65" value="&lt;div&gt;&lt;div&gt;Load Balancer&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF00FF;align=left;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1593.75" y="1360" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-1" value="Azure Central" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
@@ -9129,13 +9129,13 @@
         <mxCell id="peUpubBlOTFZSTv0XDYL-37" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="946" y="1110" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-38" value="&lt;div&gt;&lt;div&gt;Database Servers&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;align=left;verticalAlign=top;strokeWidth=2;fillColor=#E6FFCC;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-38" value="&lt;div&gt;&lt;div&gt;Database Servers&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="160" y="1940" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-39" value="VM&amp;nbsp;&lt;div&gt;Zone 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="260" y="1960" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-40" value="VM&lt;div&gt;Zone 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-40" value="VM&lt;div&gt;Zone 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6FFCC;" parent="1" vertex="1">
           <mxGeometry x="370" y="1960" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-41" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF00FF;align=left;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
@@ -9194,7 +9194,7 @@
             <mxPoint x="766.4000000000001" y="2240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-58" value="&lt;div&gt;Cloud Connector&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF00FF;align=left;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-58" value="&lt;div&gt;Cloud Connector&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;align=left;verticalAlign=top;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1208.75" y="1360" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-59" value="VM&lt;div&gt;Zone 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -9411,16 +9411,16 @@
         <mxCell id="peUpubBlOTFZSTv0XDYL-154" value="VM&amp;nbsp;&lt;div&gt;Zone 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;(cont)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1662.5" y="1745" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-155" value="&lt;div&gt;&lt;div&gt;Database Servers&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;align=left;verticalAlign=top;strokeWidth=2;fillColor=#ffe6cc;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-155" value="&lt;div&gt;&lt;div&gt;Database Servers&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="1342.5" y="1965" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-156" value="VM&amp;nbsp;&lt;div&gt;Zone 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-156" value="VM&amp;nbsp;&lt;div&gt;Zone 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="1442.5" y="1985" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-157" value="VM&lt;div&gt;Zone 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1552.5" y="1985" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="peUpubBlOTFZSTv0XDYL-158" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;align=left;verticalAlign=top;strokeWidth=2;fillColor=#ffe6cc;" parent="1" vertex="1">
+        <mxCell id="peUpubBlOTFZSTv0XDYL-158" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF00FF;align=left;verticalAlign=top;strokeWidth=2;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="1345" y="1865" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="peUpubBlOTFZSTv0XDYL-159" value="Managed Service&amp;nbsp;&lt;div&gt;Multi-zonal&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -9525,6 +9525,18 @@
             <mxPoint x="1208.75" y="1401" as="sourcePoint" />
             <mxPoint x="1111.8199999999997" y="1400.7200000000003" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f1YzsRnxAbuvBGErEzUj-3" value="P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="318" y="1955" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1YzsRnxAbuvBGErEzUj-4" value="S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1955" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1YzsRnxAbuvBGErEzUj-5" value="P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1496.5" y="1980" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1YzsRnxAbuvBGErEzUj-6" value="S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1607.5" y="1980" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
