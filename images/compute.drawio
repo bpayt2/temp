@@ -1643,16 +1643,16 @@
         <mxCell id="XwTmVGEJglUHQbcyFvBp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XwTmVGEJglUHQbcyFvBp-5" target="XwTmVGEJglUHQbcyFvBp-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XwTmVGEJglUHQbcyFvBp-22" value="Configuration Management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XwTmVGEJglUHQbcyFvBp-21">
+        <mxCell id="XwTmVGEJglUHQbcyFvBp-22" value="GDCC&lt;div&gt;Configuration Management&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XwTmVGEJglUHQbcyFvBp-21">
           <mxGeometry x="-0.0085" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="-34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XwTmVGEJglUHQbcyFvBp-5" value="Google Distributed Cloud Connected&amp;nbsp;&lt;div&gt;Service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="110" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XwTmVGEJglUHQbcyFvBp-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="510" width="500" height="270" as="geometry" />
+        <mxCell id="XwTmVGEJglUHQbcyFvBp-6" value="Goggle Distributed Cloud Connected" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="500" height="290" as="geometry" />
         </mxCell>
         <mxCell id="XwTmVGEJglUHQbcyFvBp-7" value="Google Distributed Cloud Operation System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="680" width="460" height="40" as="geometry" />
