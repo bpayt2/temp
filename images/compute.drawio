@@ -1579,7 +1579,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="axAdVxc8OUx_ajN2W02M" name="GDDC Networking">
-    <mxGraphModel dx="1090" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1640,8 +1640,19 @@
         <mxCell id="62Q90-yrUZdW01gfa6QY-5" value="Appliance Node 3&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;10.5.11.6&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="400" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-6" target="62Q90-yrUZdW01gfa6QY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="62Q90-yrUZdW01gfa6QY-6" value="ToR SWX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-7" target="62Q90-yrUZdW01gfa6QY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-55" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;x2&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="62Q90-yrUZdW01gfa6QY-53">
+          <mxGeometry x="-0.0409" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="62Q90-yrUZdW01gfa6QY-7" value="ToR SWX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="560" width="200" height="40" as="geometry" />
@@ -1700,6 +1711,82 @@
         </mxCell>
         <mxCell id="62Q90-yrUZdW01gfa6QY-33" value="API Server&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;10.5.11.20&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="320" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-38" target="62Q90-yrUZdW01gfa6QY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=none;startFill=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-38" target="62Q90-yrUZdW01gfa6QY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-38" value="Core SWX&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAU-SW-CORE-01&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=none;startFill=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-39" target="62Q90-yrUZdW01gfa6QY-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-39" value="Core SWX&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAU-SW-CORE-02&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-40" target="62Q90-yrUZdW01gfa6QY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-40" target="62Q90-yrUZdW01gfa6QY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-40" value="&lt;div&gt;Cloud Firewall&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAUZ-CLOUD-FW01&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-41" target="62Q90-yrUZdW01gfa6QY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-41" value="&lt;div&gt;Cloud Firewall&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAUZ-CLOUD-FW02&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-42" target="62Q90-yrUZdW01gfa6QY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-42" target="62Q90-yrUZdW01gfa6QY-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-42" value="Cloud Router&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAUZ-CLOUD-RTR01&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-43" target="62Q90-yrUZdW01gfa6QY-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-43" value="Cloud Router&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;USAUZ-CLOUD-RTR02&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="880" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;x2&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="442.02857142857147" y="669.0285714285715" as="geometry">
+            <mxPoint x="-14" y="111" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-57" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;x2&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="442.02857142857147" y="749.9985714285715" as="geometry">
+            <mxPoint x="-14" y="111" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-58" value="Google Cloud Platform&lt;div&gt;ulta-networkhub-prod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="760" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-60" target="62Q90-yrUZdW01gfa6QY-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="62Q90-yrUZdW01gfa6QY-60" target="62Q90-yrUZdW01gfa6QY-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-60" value="Interconnection Fabric&lt;div&gt;Virtual Circuits x4&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="960" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-65" value="Google Cloud Router&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;networkhub-prod-router-use&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1080" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-66" value="Google Cloud Router&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;networkhub-prod-router-usc&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442.03" y="1080" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="62Q90-yrUZdW01gfa6QY-69" value="Google Distributed Cloud Connected&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(Service Endpoint)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Zone = us-central1-edge-ord60817&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1130" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
