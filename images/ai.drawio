@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="7ibqT-67MEIRERPg5ZB4">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-10" value="East&amp;nbsp;&lt;div&gt;RTR&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="450" y="440" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-16" value="Azure DNS&amp;nbsp;&lt;div&gt;(forwarder)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-16" value="Azure DNS&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-20" value="Private Endpoint" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF8000;" vertex="1" parent="1">
@@ -59,11 +59,14 @@
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-24" value="Open AI Model Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="95" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCkmJXsmW-Lg5wgpeUs4-26" target="XCkmJXsmW-Lg5wgpeUs4-2">
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XCkmJXsmW-Lg5wgpeUs4-26" target="XCkmJXsmW-Lg5wgpeUs4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;" edge="1" parent="1" source="XCkmJXsmW-Lg5wgpeUs4-26" target="XCkmJXsmW-Lg5wgpeUs4-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-26" value="&amp;nbsp; &amp;nbsp; Ulta Beauty&amp;nbsp;&lt;div&gt;Private&amp;nbsp;&lt;/div&gt;&lt;div&gt;Network&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="600" width="120" height="80" as="geometry" />
+          <mxGeometry x="780" y="510" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-28" value="Azure Monitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="44" width="80" height="30" as="geometry" />
@@ -88,6 +91,41 @@
         </mxCell>
         <mxCell id="XCkmJXsmW-Lg5wgpeUs4-36" value="MS IAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="122" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-42" value="GCP&amp;nbsp;&lt;div&gt;Network Hub&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="400" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-47" value="GCP Network&lt;div&gt;Prod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=bottom;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="152" width="255" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-48" value="Central RTR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-49" value="East&amp;nbsp;&lt;div&gt;RTR&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="XCkmJXsmW-Lg5wgpeUs4-63" target="XCkmJXsmW-Lg5wgpeUs4-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="200" />
+              <mxPoint x="825" y="390" />
+              <mxPoint x="520" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-66" value="DNS Forwarding" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XCkmJXsmW-Lg5wgpeUs4-65">
+          <mxGeometry x="-0.4382" y="35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-63" value="Cloud DNS&amp;nbsp;&lt;div&gt;OpenAI Private Zone&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.471;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XCkmJXsmW-Lg5wgpeUs4-47" target="XCkmJXsmW-Lg5wgpeUs4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCkmJXsmW-Lg5wgpeUs4-67" value="Databricks Compute (GCE)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
