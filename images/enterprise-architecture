@@ -2121,6 +2121,9 @@
         <mxCell id="Eu0wVzRHAptTjhV8rBA7-21" value="VM&lt;div&gt;File Storage&lt;/div&gt;&lt;div&gt;Data Volume&lt;/div&gt;&lt;div&gt;Network Route&lt;/div&gt;&lt;div&gt;Backup&lt;/div&gt;&lt;div&gt;Power&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="1000" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="laDPG4I2WQnlB85kKU2W-1" value="&lt;b&gt;INFRASTRUCTURE SERVICE CATALOG&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="580" width="250" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
