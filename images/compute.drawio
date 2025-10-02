@@ -1903,12 +1903,14 @@
         <mxCell id="De8tKx0TWfF7uxWeSbFx-77" value="Rubrik" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="50" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De8tKx0TWfF7uxWeSbFx-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.762;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="De8tKx0TWfF7uxWeSbFx-82" target="De8tKx0TWfF7uxWeSbFx-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="De8tKx0TWfF7uxWeSbFx-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="De8tKx0TWfF7uxWeSbFx-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="De8tKx0TWfF7uxWeSbFx-79" value="DNS&amp;nbsp;&lt;div&gt;Forward&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="De8tKx0TWfF7uxWeSbFx-78">
           <mxGeometry x="-0.0787" y="6" relative="1" as="geometry">
-            <mxPoint x="-8" y="11" as="offset" />
+            <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="De8tKx0TWfF7uxWeSbFx-80" value="vCenter" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
