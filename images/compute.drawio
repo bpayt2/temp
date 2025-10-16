@@ -2056,6 +2056,18 @@
         <mxCell id="HNGkGFmZigGi3jXc4aEA-1" value="HCX" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="130" y="240" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="kZ72vBKXfSODrhaknvCM-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="395" y="670" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kZ72vBKXfSODrhaknvCM-3" value="SAN" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZ72vBKXfSODrhaknvCM-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="670" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kZ72vBKXfSODrhaknvCM-5" value="File&amp;nbsp;&lt;div&gt;Server&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
