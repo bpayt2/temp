@@ -2447,13 +2447,13 @@
         <mxCell id="LrAM_rf6KiL3d23Op58Z-43" value="Google Cloud Platform&amp;nbsp;&lt;div&gt;(GKE Production)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="840" y="560" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="LrAM_rf6KiL3d23Op58Z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="LrAM_rf6KiL3d23Op58Z-38" target="LrAM_rf6KiL3d23Op58Z-45" edge="1">
+        <mxCell id="LrAM_rf6KiL3d23Op58Z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="LrAM_rf6KiL3d23Op58Z-38" target="LrAM_rf6KiL3d23Op58Z-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LrAM_rf6KiL3d23Op58Z-45" value="App" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="620" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LrAM_rf6KiL3d23Op58Z-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.995;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="LrAM_rf6KiL3d23Op58Z-43" target="LrAM_rf6KiL3d23Op58Z-9" edge="1">
+        <mxCell id="LrAM_rf6KiL3d23Op58Z-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.995;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeColor=#FF8000;" parent="1" source="LrAM_rf6KiL3d23Op58Z-43" target="LrAM_rf6KiL3d23Op58Z-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LrAM_rf6KiL3d23Op58Z-48" value="Cluster Restricted to Pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LrAM_rf6KiL3d23Op58Z-47" vertex="1" connectable="0">
@@ -2496,7 +2496,7 @@
         <mxCell id="LrAM_rf6KiL3d23Op58Z-51" value="Feature Branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="430" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LrAM_rf6KiL3d23Op58Z-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=#FF8000;" parent="1" source="LrAM_rf6KiL3d23Op58Z-56" target="LrAM_rf6KiL3d23Op58Z-19" edge="1">
+        <mxCell id="LrAM_rf6KiL3d23Op58Z-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=#000000;" parent="1" source="LrAM_rf6KiL3d23Op58Z-56" target="LrAM_rf6KiL3d23Op58Z-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="430" />
@@ -2533,6 +2533,18 @@
         </mxCell>
         <mxCell id="lzRGJoNk0-a5WjI6PxG6-8" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="499" y="630" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Qxf0_IPaMJt_tUjDrER-62" value="1.&amp;nbsp;&lt;div&gt;(a) The &#39;container manager&#39; would work with RH subscription to open cases/etc. for support of containers.&amp;nbsp;&lt;div&gt;(b) Pull public images into an Ulta open container registry&amp;nbsp;&lt;/div&gt;&lt;div&gt;(c) Develop and publish helm charts to define container deployment standards and default to approved container versions.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;/div&gt;&lt;div&gt;(a) Public image is pushed to Ulta &#39;open&#39; registry and scanned by Prisma&lt;/div&gt;&lt;div&gt;(b) Prisma scan vulnerability are resolved by RH or Container Manager&lt;/div&gt;&lt;div&gt;(c) Ulta image is published (version controlled)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;&lt;/div&gt;&lt;div&gt;(a) App team pushes source code to Bitbucket repository to trigger build/test (Ulta&#39;s standard CI pipeline)&lt;/div&gt;&lt;div&gt;(b) App team pulls Ulta image to base code and packages (packages pulled from upstream via Jfrog)&lt;br&gt;&lt;div&gt;(c) App team tests image and promotes&amp;nbsp;&lt;br&gt;&lt;div&gt;(d) Upon promotion to stage, image is scanned by Prisma (repeat #3 after vulnerabilities are resolved)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;&lt;/div&gt;&lt;div&gt;(a) App team publishes image to production registry&lt;/div&gt;&lt;div&gt;(b) The GKE cluster associated to the application (team) is restricted to the production registry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5.&lt;/div&gt;&lt;div&gt;(a) App team merges code to production registry&lt;/div&gt;&lt;div&gt;(b) App team pushes deployment updates for image version on helm chart to production registry to trigger deployment&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(c) CD pipeline runs and pushes helm chart to GKE, GKE pulls application image specified version&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="750" width="1200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0Qxf0_IPaMJt_tUjDrER-63" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF8000;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="600" as="sourcePoint" />
+            <mxPoint x="100" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Qxf0_IPaMJt_tUjDrER-64" value="= Image movement" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="585" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
