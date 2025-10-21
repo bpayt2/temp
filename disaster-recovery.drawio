@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="39">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="40">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10455,6 +10455,77 @@
         </mxCell>
         <mxCell id="ZNUCYHJl55CHA4e3hHD1-39" value="Aurora CyrusOne DC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NYRbK8by1jUIGQfIav9m" name="GCVE Failover">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-1" value="CyrusOne Aurora (VMware)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-2" value="Azure East (AVS)" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-3" value="Compute" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-4" value="Compute" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-5" value="VM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="165" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-6" value="VM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="165" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DNS = APP1.ultainc.lcl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP = 1.1.1.1&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-8" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DNS = APP1.ultainc.lcl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP = 1.1.1.1&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-10" value="X" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=73;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="155" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Scenario&lt;/b&gt; = Facility Offline&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Outcome&lt;/b&gt; = Application restored in Azure with same IP and DNS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Limitation&lt;/b&gt; = Only supports facility failure (cannot coexist with CyrusOne)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-14" value="CyrusOne Aurora (VMware)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="507" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-15" value="Google Cloud Platform East 4 (GCVE)" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="507" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-16" value="Compute" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="547" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-17" value="Compute" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="547" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-18" value="VM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="552" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-19" value="VM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="552" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DNS = APP1.ultainc.lcl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP = 1.1.1.1&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="617" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DNS = APP1.use.gcp.ultaintra.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;IP = 2.2.2.2&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="617" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-22" value="X" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=33;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="537" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Scenario&lt;/b&gt; = Facility or Application Offline&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Outcome&lt;/b&gt; = Application online in GCP with different IP but same DNS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Limitation&lt;/b&gt; = Doesn&#39;t support applications coding static IPs (anti-pattern)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Enhancement&lt;/b&gt; = Allows for individual application failover&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="360" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8J2R1Ci3qUFSrePrRrHz-25" value="DNS Updates APP1.ultainc.lcl to address APP1.use.gcp.ultaintra.com" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="677" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
