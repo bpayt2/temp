@@ -1982,6 +1982,18 @@
         <mxCell id="MQmssZKiWF3q6gOYkLZf-12" value="&lt;div&gt;10.10.10.10&lt;/div&gt;hostname.use.gcp.ultaintra.com" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-310" y="960" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MQmssZKiWF3q6gOYkLZf-14" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MQmssZKiWF3q6gOYkLZf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF8000;" edge="1" parent="1" source="De8tKx0TWfF7uxWeSbFx-5" target="MQmssZKiWF3q6gOYkLZf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQmssZKiWF3q6gOYkLZf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF8000;" edge="1" parent="1" source="De8tKx0TWfF7uxWeSbFx-50" target="MQmssZKiWF3q6gOYkLZf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQmssZKiWF3q6gOYkLZf-17" value="Network Policy NAT Egress" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="902.5" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
