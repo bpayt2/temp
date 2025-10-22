@@ -1954,7 +1954,7 @@
         <mxCell id="MQmssZKiWF3q6gOYkLZf-1" value="NSX Overlay" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-400" y="815" width="390" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="MQmssZKiWF3q6gOYkLZf-4" value="Workload Network Segment&amp;nbsp;&lt;div&gt;Flat Network (10.X.X.X/20)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="MQmssZKiWF3q6gOYkLZf-4" value="Workload Network Segment&amp;nbsp;&lt;div&gt;Flat Network (10.X.X.X/20)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;strokeColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="-380" y="850" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="MQmssZKiWF3q6gOYkLZf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MQmssZKiWF3q6gOYkLZf-6">
