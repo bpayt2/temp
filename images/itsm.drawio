@@ -1061,13 +1061,19 @@
           <mxGeometry height="60" width="800" y="800" as="geometry" />
         </mxCell>
         <mxCell id="nCG3X_ICGQKW-IgaYexq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Daily Standup&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Team Moe = 0900-0930&lt;/div&gt;&lt;div&gt;Team Larry = 0930-1000&lt;/div&gt;&lt;div&gt;Team Curly = 1000-1030&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scrum Masters attend all 3&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="880" as="geometry" />
+          <mxGeometry height="110" width="280" x="880" y="40" as="geometry" />
         </mxCell>
         <mxCell id="nCG3X_ICGQKW-IgaYexq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;EPIC Assignment&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 Team = 1 EPIC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is true for internal and external supported EPICs&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="280" x="880" y="120" as="geometry" />
+          <mxGeometry height="100" width="280" x="880" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="nCG3X_ICGQKW-IgaYexq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;KTLO, Ops Support, and RITM Support&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1 Team each sprint&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Rotate capacity each sprint 50-75%&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="280" x="880" y="240" as="geometry" />
+        <mxCell id="nCG3X_ICGQKW-IgaYexq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;KTLO, Ops Support, and RITM Support&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1 Team each sprint&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Rotate capacity each sprint 25-75%&amp;nbsp;&lt;/div&gt;&lt;div&gt;(depends on MSP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="280" x="880" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="nCG3X_ICGQKW-IgaYexq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;Training&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Each team needs to become balanced, should not be reaching across teams.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Responsibility is on each engineer to training their engineer group across the teams. Example: Todd B may train Phil (Team Larry) and Harly (Team Curly) on a particular storage allocation activity so that each team can support that ask.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="280" x="880" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="nCG3X_ICGQKW-IgaYexq-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;MSP&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;The MSP should be 100% KTLO and Ops. This will promote the teams to be more engineering versus support focuses. This requires that each team document runbooks and knowledge articles for MSP across the disciplines.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Engineering activities outsourced to MSP/consultants should be brought into team backlog.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="280" x="880" y="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
