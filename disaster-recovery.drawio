@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="40">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="41">
   <diagram name="High Level" id="YW19ZZyG93Ktc4ON_m9Q">
     <mxGraphModel dx="1914" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10556,6 +10556,83 @@
         </mxCell>
         <mxCell id="8J2R1Ci3qUFSrePrRrHz-25" value="DNS Updates APP1.ultainc.lcl to address APP1.use.gcp.ultaintra.com" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="677" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O3zm6daR4XN1XjWjAjhh" name="Page-41">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="Central 1" vertex="1">
+          <mxGeometry height="240" width="160" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="East 4" vertex="1">
+          <mxGeometry height="240" width="320" x="440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-23" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bLyWQmtBrEQSQe0evuB4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="HANA" vertex="1">
+          <mxGeometry height="80" width="60" x="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-22" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bLyWQmtBrEQSQe0evuB4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="HANA" vertex="1">
+          <mxGeometry height="80" width="60" x="650" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cold Storage" vertex="1">
+          <mxGeometry height="30" width="100" x="450" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-16" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bLyWQmtBrEQSQe0evuB4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rubrik Vault" vertex="1">
+          <mxGeometry height="50" width="100" x="450" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-13" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bLyWQmtBrEQSQe0evuB4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-17" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" target="bLyWQmtBrEQSQe0evuB4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rubrik Cluster" vertex="1">
+          <mxGeometry height="50" width="100" x="230" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hot Storage" vertex="1">
+          <mxGeometry height="30" width="100" x="230" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-14" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bLyWQmtBrEQSQe0evuB4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rubrik Cluster" vertex="1">
+          <mxGeometry height="50" width="100" x="630" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hot Storage" vertex="1">
+          <mxGeometry height="30" width="100" x="630" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="220" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="395" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="600" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="550" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-24" edge="1" parent="1" source="bLyWQmtBrEQSQe0evuB4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="bLyWQmtBrEQSQe0evuB4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. Rubrik Cluster is deployed in Central and takes backup of Central S4 HANA DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. DB Backup is copied to East 4 Rubrik Vault cold storage (significantly cheaper)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. In the event of a failover, the Rubrik Cluster will be deployed into East 4.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. In the event of a DB restore is needed during a failover, the East 4 cluster will use the cold stored backup to restore East 4 S4 HANA DB.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- - This will make RTO from backup larger but is a tertiary measure.&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. Once East 4 HANA DB becomes primary, the East 4 Rubrik cluster will start to take backups.&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="560" x="200" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bLyWQmtBrEQSQe0evuB4-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="720" y="225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
