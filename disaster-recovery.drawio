@@ -10681,7 +10681,7 @@
         </mxCell>
         <mxCell id="HUOfunbtVUyMQaIHzD49-80" connectable="0" parent="HUOfunbtVUyMQaIHzD49-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="All DNS Calls&lt;div&gt;All AD Calls&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.6513" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HUOfunbtVUyMQaIHzD49-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Production Net" vertex="1">
@@ -10782,7 +10782,7 @@
         </mxCell>
         <mxCell id="HUOfunbtVUyMQaIHzD49-79" connectable="0" parent="HUOfunbtVUyMQaIHzD49-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="All DNS Calls&lt;div&gt;All AD Calls&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.4214" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HUOfunbtVUyMQaIHzD49-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Production Net" vertex="1">
