@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="google_palo_ngfw" id="3ExzMR4DquvwHOPj-cR4">
-    <mxGraphModel dx="2264" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2264" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,6 +396,18 @@
         </mxCell>
         <mxCell id="MzOkJW4L9rvUmPir3yxD-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Prod" vertex="1">
           <mxGeometry height="30" width="60" x="615" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="10T8-m98YpDgHpuE9iMI-4" edge="1" parent="1" source="10T8-m98YpDgHpuE9iMI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="tRedCPWRB_f1dplKibxM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10T8-m98YpDgHpuE9iMI-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="INET" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="10T8-m98YpDgHpuE9iMI-3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="INET" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="10T8-m98YpDgHpuE9iMI-5" edge="1" parent="1" source="tRedCPWRB_f1dplKibxM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.642;entryY=0.913;entryDx=0;entryDy=0;entryPerimeter=0;" target="10T8-m98YpDgHpuE9iMI-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
