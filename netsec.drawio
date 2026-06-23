@@ -571,13 +571,13 @@
         <mxCell id="xn1z1mRIEFN_cLXImmEJ-11" parent="0LnuXmzx3cSg4kBCE06e-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#0061A6,#EDEDED);strokeWidth=2;" value="Palo NGFW&lt;div&gt;VM&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="80" x="79" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="xn1z1mRIEFN_cLXImmEJ-14" parent="0LnuXmzx3cSg4kBCE06e-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="INET" vertex="1">
+        <mxCell id="xn1z1mRIEFN_cLXImmEJ-14" parent="0LnuXmzx3cSg4kBCE06e-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=light-dark(#0061A6,#EDEDED);strokeWidth=2;" value="INET" vertex="1">
           <mxGeometry height="80" width="120" x="53" y="30" as="geometry" />
         </mxCell>
         <mxCell id="xn1z1mRIEFN_cLXImmEJ-15" edge="1" parent="0LnuXmzx3cSg4kBCE06e-1" source="xn1z1mRIEFN_cLXImmEJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="xn1z1mRIEFN_cLXImmEJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xn1z1mRIEFN_cLXImmEJ-16" parent="0LnuXmzx3cSg4kBCE06e-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="INET" vertex="1">
+        <mxCell id="xn1z1mRIEFN_cLXImmEJ-16" parent="0LnuXmzx3cSg4kBCE06e-1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=light-dark(#0061A6,#EDEDED);strokeWidth=2;" value="INET" vertex="1">
           <mxGeometry height="80" width="120" x="59" y="580" as="geometry" />
         </mxCell>
       </root>
