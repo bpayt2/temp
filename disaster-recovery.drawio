@@ -11129,7 +11129,7 @@
         <mxCell id="aHb0YiYegmHx19YlmJD5-40" edge="1" parent="1" source="aHb0YiYegmHx19YlmJD5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aHb0YiYegmHx19YlmJD5-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aHb0YiYegmHx19YlmJD5-41" connectable="0" parent="aHb0YiYegmHx19YlmJD5-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tierciary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aHb0YiYegmHx19YlmJD5-41" connectable="0" parent="aHb0YiYegmHx19YlmJD5-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tertiary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0042" y="2" as="geometry">
             <mxPoint x="19" y="2" as="offset" />
           </mxGeometry>
@@ -11140,7 +11140,7 @@
             <mxPoint x="750" y="419.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aHb0YiYegmHx19YlmJD5-43" connectable="0" parent="aHb0YiYegmHx19YlmJD5-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tierciary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aHb0YiYegmHx19YlmJD5-43" connectable="0" parent="aHb0YiYegmHx19YlmJD5-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tertiary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0042" y="2" as="geometry">
             <mxPoint x="19" y="2" as="offset" />
           </mxGeometry>
@@ -11181,7 +11181,7 @@
             <mxPoint x="750" y="189.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aHb0YiYegmHx19YlmJD5-49" connectable="0" parent="aHb0YiYegmHx19YlmJD5-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tierciary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aHb0YiYegmHx19YlmJD5-49" connectable="0" parent="aHb0YiYegmHx19YlmJD5-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Promote Tertiary&lt;div&gt;Power on standby secondary&lt;/div&gt;&lt;div&gt;Replicate to secondary&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse replicate to source&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0042" y="2" as="geometry">
             <mxPoint x="19" y="2" as="offset" />
           </mxGeometry>
