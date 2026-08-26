@@ -3147,7 +3147,7 @@
             <mxPoint y="25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUbfQAcJjp7Is-Cqbeom-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Database x2" vertex="1">
+        <mxCell id="IUbfQAcJjp7Is-Cqbeom-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Database" vertex="1">
           <mxGeometry height="20" width="120" x="680" y="116" as="geometry" />
         </mxCell>
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-148" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-140" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IUbfQAcJjp7Is-Cqbeom-142">
