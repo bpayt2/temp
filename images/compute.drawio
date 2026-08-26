@@ -2754,7 +2754,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SNbPax7SHFj0yAUtcZg6" name="MAWM Network">
-    <mxGraphModel dx="4057" dy="2395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4243" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2766,16 +2766,14 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUbfQAcJjp7Is-Cqbeom-13" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.305;exitY=0.993;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="IUbfQAcJjp7Is-Cqbeom-2">
+        <mxCell id="IUbfQAcJjp7Is-Cqbeom-13" edge="1" parent="1" source="zHWvhjyC5ia1INdMCJLf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.303;exitY=0.955;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="IUbfQAcJjp7Is-Cqbeom-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="240" width="430" x="410" y="-60" as="geometry" />
         </mxCell>
-        <mxCell id="IUbfQAcJjp7Is-Cqbeom-14" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.767;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="IUbfQAcJjp7Is-Cqbeom-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="190" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zHWvhjyC5ia1INdMCJLf-2" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="zHWvhjyC5ia1INdMCJLf-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="240" width="400" x="440" y="550" as="geometry" />
@@ -3210,17 +3208,25 @@
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-177" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" value="WAF" vertex="1">
           <mxGeometry height="35" width="60" x="413" y="43" as="geometry" />
         </mxCell>
-        <mxCell id="IUbfQAcJjp7Is-Cqbeom-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CATO" vertex="1">
+        <mxCell id="IUbfQAcJjp7Is-Cqbeom-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INET Router" vertex="1">
           <mxGeometry height="60" width="90" x="-830" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="IUbfQAcJjp7Is-Cqbeom-180" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-178" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0080;dashed=1;strokeWidth=2;" target="IUbfQAcJjp7Is-Cqbeom-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IUbfQAcJjp7Is-Cqbeom-180" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-178" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0080;dashed=1;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="IUbfQAcJjp7Is-Cqbeom-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660" y="270" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-182" edge="1" parent="1" source="IUbfQAcJjp7Is-Cqbeom-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="IUbfQAcJjp7Is-Cqbeom-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUbfQAcJjp7Is-Cqbeom-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="End User&amp;nbsp;&lt;div&gt;Devices&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="-1110" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zHWvhjyC5ia1INdMCJLf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Edge VPC" vertex="1">
+          <mxGeometry height="60" width="430" x="410" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zHWvhjyC5ia1INdMCJLf-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP Whitelist" vertex="1">
+          <mxGeometry height="30" width="60" x="413" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
