@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" pages="11">
   <diagram name="High Level" id="reDfM8CrHqHsR3QStg8j">
     <mxGraphModel dx="3244" dy="2474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2304,6 +2304,155 @@
         </mxCell>
         <mxCell id="Ws8IdvA2UG-IujVWvl_6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ws8IdvA2UG-IujVWvl_6-26" target="Ws8IdvA2UG-IujVWvl_6-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z-fYMr9ON4gtASWGD4rO" name="Databricks Sharing to Other">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="&lt;b&gt;MS Entra&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="160" x="170" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-2" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-3" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="User 2" vertex="1">
+          <mxGeometry relative="1" x="-0.3835" y="-2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Databricks&lt;div&gt;(Auth)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-5" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-6" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Authz" vertex="1">
+          <mxGeometry relative="1" x="-0.1667" y="5" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="o9-entra-policy" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-8" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-9" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-10" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontColor=#FF3333;fontSize=18;fontStyle=1" value="X" vertex="1">
+          <mxGeometry relative="1" x="0.5824" y="2" as="geometry">
+            <mxPoint x="-13" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-11" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-12" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=18;fontColor=#FF3333;fontStyle=1" value="X" vertex="1">
+          <mxGeometry relative="1" x="0.8545" y="1" as="geometry">
+            <mxPoint x="-66" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;Group 09-A&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;mapped to&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;o9_d2o_A&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share A" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share B" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share C" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entra Group O9-A&lt;div&gt;User 1, 2, 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entra Group O9-B&lt;div&gt;User 1, 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entra Group O9-C&lt;div&gt;User 4, 5, 6&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-20" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.013;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-21" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="OIDC Federation" vertex="1">
+          <mxGeometry relative="1" x="0.0626" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="&lt;b&gt;MS Entra&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="160" x="940" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-23" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-24" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="User 2" vertex="1">
+          <mxGeometry relative="1" x="-0.3835" y="-2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Databricks&lt;div&gt;(Auth)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-26" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-27" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Authz" vertex="1">
+          <mxGeometry relative="1" x="-0.1667" y="5" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="o9-entra-policy" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-29" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-30" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-31" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-32" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=18;fontColor=#FF3333;fontStyle=1" value="X" vertex="1">
+          <mxGeometry relative="1" x="0.8545" y="1" as="geometry">
+            <mxPoint x="-66" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;Group 09-A&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;mapped to&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;o9_d2o_A + B + ?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share A" vertex="1">
+          <mxGeometry height="60" width="120" x="1180" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share B" vertex="1">
+          <mxGeometry height="60" width="120" x="1340" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Share C" vertex="1">
+          <mxGeometry height="60" width="120" x="1500" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entra Group O9&lt;div&gt;All Users&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="960" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-38" edge="1" parent="1" source="ukXc-qZr5mz_iKC2NT1C-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.013;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ukXc-qZr5mz_iKC2NT1C-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-39" connectable="0" parent="ukXc-qZr5mz_iKC2NT1C-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="OIDC Federation" vertex="1">
+          <mxGeometry relative="1" x="0.0626" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pattern B does not provide provide data access segregation visible or management within Ulta. If you were do use this pattern, then you would most certainly need SCIM to update the groups within Databricks from the Entra Members.&amp;nbsp; There is very little value in this approach as you are still management all authorization locally and there is no tie back into group membership at Ulta.&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="430" x="1140" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="ukXc-qZr5mz_iKC2NT1C-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pattern A - This is what makes sense. There is a group per data access and when the data share is removed, the group is removed. This is a clear mapping of users to access and can be audited within Ulta.&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="430" x="360" y="1170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
