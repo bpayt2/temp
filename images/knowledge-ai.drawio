@@ -1,9 +1,130 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="_qpRnPSG1yog8khgNlOv">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="01 - Code to Confluence" id="9ezLC9kggENjFtY8Kxf-">
+    <mxGraphModel dx="1704" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#183153;" value="Code change to approved Confluence update" vertex="1">
+          <mxGeometry height="55" width="800" x="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4679BD;fontColor=#17365D;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Bitbucket&lt;/b&gt;&lt;br&gt;Merged code / IaC / configuration change" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F5F7;strokeColor=#8896A6;fontColor=#263238;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS&lt;/b&gt;&lt;br&gt;Nightly scan of named repositories" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8FC;strokeColor=#8066C2;fontColor=#39296A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Gemini + knowledge layer&lt;/b&gt;&lt;br&gt;Map change to affected Confluence page; draft revision" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontColor=#66440A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Review queue&lt;/b&gt;&lt;br&gt;Named Ulta approver reviews proposed update" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Decision&lt;/b&gt;&lt;br&gt;Approved?" vertex="1">
+          <mxGeometry height="90" width="500" x="345" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F4E7;strokeColor=#4D9B65;fontColor=#185B2B;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Confluence&lt;/b&gt;&lt;br&gt;Write approved update; record audit trail" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n5" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rejected" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontColor=#66440A;fontSize=14;align=center;verticalAlign=middle;" value="Not approved: revise or reject draft" vertex="1">
+          <mxGeometry height="75" width="245" x="875" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="no" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="rejected" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#475569;fontSize=13;align=left;spacing=12;" value="Scope: nightly checks; no real-time pull-request trigger. Bitbucket read-only; Confluence write-back only after human approval." vertex="1">
+          <mxGeometry height="75" width="875" x="145" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 - Grounded prompt response" id="XQTIs5K49_rn5aax0gqr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#183153;" value="Operational knowledge retrieval and response" vertex="1">
+          <mxGeometry height="55" width="800" x="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4679BD;fontColor=#17365D;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS in-app chat&lt;/b&gt;&lt;br&gt;Engineer asks an operational question" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F5F7;strokeColor=#8896A6;fontColor=#263238;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Governed knowledge layer&lt;/b&gt;&lt;br&gt;Retrieve relevant ServiceNow history and Confluence documents" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8FC;strokeColor=#8066C2;fontColor=#39296A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Gemini on Vertex AI&lt;/b&gt;&lt;br&gt;Synthesize grounded answer with provenance" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F4E7;strokeColor=#4D9B65;fontColor=#185B2B;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS in-app chat&lt;/b&gt;&lt;br&gt;Return cited response; flag insufficient evidence" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#475569;fontSize=13;align=left;spacing=12;" value="Scope: in-app chat only; ServiceNow and Confluence read for grounded, cited answers. No write-back in this workflow." vertex="1">
+          <mxGeometry height="75" width="875" x="145" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - Incident knowledge" id="qZN2PnOF1p8RWn74RVku">
+    <mxGraphModel dx="1937" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#183153;" value="Recurring incident detection and knowledge proposal" vertex="1">
+          <mxGeometry height="55" width="800" x="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4679BD;fontColor=#17365D;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;ServiceNow&lt;/b&gt;&lt;br&gt;Incident and ticket history (read-only)" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F5F7;strokeColor=#8896A6;fontColor=#263238;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS&lt;/b&gt;&lt;br&gt;Nightly scheduled checks detect recurring patterns" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8FC;strokeColor=#8066C2;fontColor=#39296A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Gemini + Confluence context&lt;/b&gt;&lt;br&gt;Draft proposed operational knowledge / runbook improvement" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontColor=#66440A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Review queue&lt;/b&gt;&lt;br&gt;Named Ulta approver reviews proposed content" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F4E7;strokeColor=#4D9B65;fontColor=#185B2B;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS knowledge layer&lt;/b&gt;&lt;br&gt;Approved knowledge available for grounded retrieval" vertex="1">
+          <mxGeometry height="83" width="500" x="345" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontColor=#475569;fontSize=13;align=left;spacing=12;" value="Scope: recurring-problem detection and review queue. Automated ServiceNow-to-Confluence publishing is NOT a committed pilot write-back flow." vertex="1">
+          <mxGeometry height="75" width="875" x="145" y="970" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
