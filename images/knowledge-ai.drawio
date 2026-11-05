@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="01 - Code to Confluence" id="9ezLC9kggENjFtY8Kxf-">
     <mxGraphModel dx="2049" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,6 +121,41 @@
         </mxCell>
         <mxCell id="e4" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n4" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 - Change Analysis" id="rw-HbRuLZhUfQ5oz2Pii">
+    <mxGraphModel dx="1704" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="vf89Pj09l4PpgAYqH6T--0" />
+        <mxCell id="vf89Pj09l4PpgAYqH6T--1" parent="vf89Pj09l4PpgAYqH6T--0" />
+        <mxCell id="vf89Pj09l4PpgAYqH6T--2" parent="vf89Pj09l4PpgAYqH6T--1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#183153;" value="Recurring incident detection and knowledge proposal" vertex="1">
+          <mxGeometry height="55" width="800" x="185" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-0" parent="vf89Pj09l4PpgAYqH6T--1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4679BD;fontColor=#17365D;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS in-app chat&lt;/b&gt;&lt;br&gt;Engineer asks an operational question" vertex="1">
+          <mxGeometry height="83" width="500" x="335" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-1" parent="vf89Pj09l4PpgAYqH6T--1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F5F7;strokeColor=#8896A6;fontColor=#263238;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;MCP Connections&lt;/b&gt;&lt;br&gt;Query relevant ServiceNow CR history, public cloud logs, and/or hypervisor logs." vertex="1">
+          <mxGeometry height="83" width="500" x="335" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-2" edge="1" parent="vf89Pj09l4PpgAYqH6T--1" source="5LHyU9eeAgEmFtzqWVDi-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="5LHyU9eeAgEmFtzqWVDi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-3" parent="vf89Pj09l4PpgAYqH6T--1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8FC;strokeColor=#8066C2;fontColor=#39296A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Gemini on Vertex AI&lt;/b&gt;&lt;br&gt;Synthesize grounded answer with provenance" vertex="1">
+          <mxGeometry height="83" width="500" x="335" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-4" edge="1" parent="vf89Pj09l4PpgAYqH6T--1" source="5LHyU9eeAgEmFtzqWVDi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="5LHyU9eeAgEmFtzqWVDi-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-5" parent="vf89Pj09l4PpgAYqH6T--1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F4E7;strokeColor=#4D9B65;fontColor=#185B2B;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS in-app chat&lt;/b&gt;&lt;br&gt;Return cited response; flag insufficient evidence" vertex="1">
+          <mxGeometry height="83" width="500" x="335" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-6" edge="1" parent="vf89Pj09l4PpgAYqH6T--1" source="5LHyU9eeAgEmFtzqWVDi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="5LHyU9eeAgEmFtzqWVDi-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LHyU9eeAgEmFtzqWVDi-7" parent="vf89Pj09l4PpgAYqH6T--1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;*Only real question is; What change in the past X hrs related to this CI, App, or Environment?*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="890" x="150" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
