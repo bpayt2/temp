@@ -73,7 +73,7 @@
         <mxCell id="A4QVjMmIjpY6vcqIxh0x-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Flow for daily re-ingest" vertex="1">
           <mxGeometry height="60" width="480" x="1040" y="256.5" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Consumer to analyze change to architecture and confluence pages. Add all changes to pages; configuration guides, architecture, etc." vertex="1">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Consumer to analyze change to architecture and confluence pages. Add all changes to pages; configuration guides, architecture, etc.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New Signal?&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="480" x="1040" y="391.5" as="geometry" />
         </mxCell>
         <mxCell id="A4QVjMmIjpY6vcqIxh0x-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Queue change batch for approval" vertex="1">
