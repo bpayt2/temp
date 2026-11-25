@@ -7,13 +7,13 @@
         <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#183153;" value="Code change to approved Confluence update" vertex="1">
           <mxGeometry height="55" width="800" x="560" y="25" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-7" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;endArrow=none;endFill=0;" target="A4QVjMmIjpY6vcqIxh0x-1">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-7" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;endArrow=none;endFill=0;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4679BD;fontColor=#17365D;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Bitbucket&lt;/b&gt;&lt;br&gt;Merged code / IaC / configuration change" vertex="1">
           <mxGeometry height="83" width="500" x="345" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-8" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="A4QVjMmIjpY6vcqIxh0x-2">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-8" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F5F7;strokeColor=#8896A6;fontColor=#263238;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;AEGIS&lt;/b&gt;&lt;br&gt;Nightly scan of named repositories" vertex="1">
@@ -22,7 +22,7 @@
         <mxCell id="e1" edge="1" parent="1" source="n0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-9" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="A4QVjMmIjpY6vcqIxh0x-3">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-9" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8FC;strokeColor=#8066C2;fontColor=#39296A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Gemini + knowledge layer&lt;/b&gt;&lt;br&gt;Map change to affected Confluence page; draft revision" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="e2" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-10" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="A4QVjMmIjpY6vcqIxh0x-4">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-10" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontColor=#66440A;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Review queue&lt;/b&gt;&lt;br&gt;Named Ulta approver reviews proposed update" vertex="1">
@@ -46,16 +46,16 @@
         <mxCell id="e4" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-12" edge="1" parent="1" source="n5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="A4QVjMmIjpY6vcqIxh0x-6">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-12" edge="1" parent="1" source="n5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F4E7;strokeColor=#4D9B65;fontColor=#185B2B;fontSize=16;align=center;verticalAlign=middle;spacing=12;" value="&lt;b&gt;Confluence&lt;/b&gt;&lt;br&gt;Write approved update; record audit trail" vertex="1">
-          <mxGeometry height="83" width="500" x="345" y="785" as="geometry" />
+          <mxGeometry height="83" width="500" x="345" y="790" as="geometry" />
         </mxCell>
         <mxCell id="e5" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748B;fontSize=12;" target="n5" value="Yes">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A4QVjMmIjpY6vcqIxh0x-11" edge="1" parent="1" source="rejected" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="A4QVjMmIjpY6vcqIxh0x-5">
+        <mxCell id="A4QVjMmIjpY6vcqIxh0x-11" edge="1" parent="1" source="rejected" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;strokeWidth=2;" target="A4QVjMmIjpY6vcqIxh0x-5">
           <mxGeometry relative="1" x="0.0101" as="geometry" />
         </mxCell>
         <mxCell id="rejected" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1D6;strokeColor=#D79A35;fontColor=#66440A;fontSize=14;align=center;verticalAlign=middle;" value="Not approved: revise or reject draft" vertex="1">
@@ -65,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L-HtU86gXGkYDVWf8dT9-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;* Confluence includes the following documentation types: Architecture Diagram and Configuration Guides.*&amp;nbsp;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="850" x="160" y="960" as="geometry" />
+          <mxGeometry height="30" width="850" x="535" y="960" as="geometry" />
         </mxCell>
         <mxCell id="A4QVjMmIjpY6vcqIxh0x-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Bitbucket data connector (Spines: Source code, PR, ReadMe)" vertex="1">
           <mxGeometry height="60" width="480" x="1040" y="121.5" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry height="60" width="270" x="1250" y="665" as="geometry" />
         </mxCell>
         <mxCell id="A4QVjMmIjpY6vcqIxh0x-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;fontStyle=1;align=center;" value="- Write back connector to publish pages folder. Then ability to merge over existing files." vertex="1">
-          <mxGeometry height="60" width="480" x="1040" y="796.5" as="geometry" />
+          <mxGeometry height="60" width="480" x="1040" y="801.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
